@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SEO on sunny博客</title>
+    <link>http://nagisa969.github.io/tags/seo/</link>
+    <description>Recent content in SEO on sunny博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 02 Nov 2023 09:07:58 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>怎么搭建60和120个IP小型站群?</title>
+      <link>http://nagisa969.github.io/post/how-to-build-60-and-120-ip-small-site-groups/</link>
+      <pubDate>Thu, 02 Nov 2023 09:07:58 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/how-to-build-60-and-120-ip-small-site-groups/</guid>
+      <description>要搭建一个包含60到120个IP的小型站群，首先需要购买相应数量的域名和服务器。 以下是搭建步骤： 购买域名：根据站群规模，购买60到120个域</description>
+    </item>
+    
+    <item>
+      <title>怎么做站群SEO</title>
+      <link>http://nagisa969.github.io/post/how-to-do-site-group-seo/</link>
+      <pubDate>Thu, 02 Nov 2023 09:06:57 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/how-to-do-site-group-seo/</guid>
+      <description>站群SEO是一种通过创建多个网站并相互链接，以提高整体排名和流量的策略。以下是一些站群SEO的基本步骤： 找到合适的主题和关键词：首先确定你要</description>
+    </item>
+    
+  </channel>
+</rss>

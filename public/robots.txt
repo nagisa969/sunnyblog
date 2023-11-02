@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://nagisa969.github.io/sitemap.xml
