@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html
+  lang="zh-cn"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+          如何制作一款简单的电脑游戏 - sunny博客
+        </title>
+    
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J8PVGC2Y9N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J8PVGC2Y9N');
+</script>
+
+    
+<meta name="google-site-verification" content="pSjzkRSbWnNgI-7yywUy2bBR1AsR0Fon6eE4wTmt9Ro" />
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9147816558956773"
+     crossorigin="anonymous"></script>
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="sunny" /><meta name="description" content="制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏：" />
+<meta name="keywords" content="电脑游戏, 步骤, 基础游戏" />
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.119.0" />
+
+
+<link rel="canonical" href="http://nagisa969.github.io/post/game/how-to-make-a-simple-computer-game/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.d8d87b982993a745e5e7b6a6cbf257be8c3e82aab5e485f0908ad7e6c3501ab2.css" integrity="sha256-2Nh7mCmTp0Xl57amy/JXvow&#43;gqq15IXwkIrX5sNQGrI=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+
+
+<meta property="og:title" content="如何制作一款简单的电脑游戏" />
+<meta property="og:description" content="制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏：" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://nagisa969.github.io/post/game/how-to-make-a-simple-computer-game/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-12-14T12:31:29+08:00" />
+<meta property="article:modified_time" content="2023-12-14T12:31:29+08:00" />
+<meta itemprop="name" content="如何制作一款简单的电脑游戏">
+<meta itemprop="description" content="制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏："><meta itemprop="datePublished" content="2023-12-14T12:31:29+08:00" />
+<meta itemprop="dateModified" content="2023-12-14T12:31:29+08:00" />
+<meta itemprop="wordCount" content="1136">
+<meta itemprop="keywords" content="blog,game," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="如何制作一款简单的电脑游戏"/>
+<meta name="twitter:description" content="制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏："/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+  </head>
+  <body>
+    <div id="back-to-top"></div>
+
+    <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Sunny</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/post/">文章</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/about/">关于</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/links/">友情链接</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          <div class="mobile-menu-parent">
+            <span class="mobile-submenu-open"></span>
+            <a href="http://nagisa969.github.io/">
+              SEO
+            </a>
+          </div>
+          <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/the-ultimate-guide-to-site-optimization/">站群优化的终极指南：提升效率与可持续性</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/how-to-do-site-group-seo/">怎么做站群SEO</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/">怎么搭建60和120个IP小型站群?</a>
+              </li>
+            
+          </ul>
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          <div class="mobile-menu-parent">
+            <span class="mobile-submenu-open"></span>
+            <a href="http://nagisa969.github.io/">
+              VPN
+            </a>
+          </div>
+          <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/vpn/vpn-selection-guide/">VPN选择指南：保护隐私与安全的最佳建议</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/vpn/free-vpn-service-comparison/">免费VPN服务比较：保障隐私、加密传输的最佳选择</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
+              </li>
+            
+              <li>
+                <a href="http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+    
+      
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+    
+
+    
+
+    
+
+
+    <header id="header" class="header">
+      <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Sunny
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/">主页</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/post/">文章</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/about/">关于</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="http://nagisa969.github.io/links/">友情链接</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="http://nagisa969.github.io/">SEO</a>
+          <ul class="submenu">
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/the-ultimate-guide-to-site-optimization/">站群优化的终极指南：提升效率与可持续性</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/how-to-do-site-group-seo/">怎么做站群SEO</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/">怎么搭建60和120个IP小型站群?</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="http://nagisa969.github.io/">VPN</a>
+          <ul class="submenu">
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/vpn/vpn-selection-guide/">VPN选择指南：保护隐私与安全的最佳建议</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/vpn/free-vpn-service-comparison/">免费VPN服务比较：保障隐私、加密传输的最佳选择</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="http://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+    </header>
+
+    <div id="mobile-panel">
+      <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">如何制作一款简单的电脑游戏</h1>
+          
+
+          <div class="post-meta">
+  <div class="post-meta-author">
+    by
+      <a href="/about/">
+        <span class="post-meta-author-name">
+          sunny
+        </span>
+      </a>
+    
+  </div>
+
+  <div class="post-meta-time">
+    <time datetime="2023-12-14">
+      2023-12-14
+    </time>
+  </div>
+
+  
+
+
+  <div class="post-meta__right">
+    
+
+    <div class="post-meta-category">
+        <a href="http://nagisa969.github.io/categories/game/"> game </a>
+          
+      </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+        </header>
+
+        
+        <div class="post-content">
+          <p>制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏：</p>
+<h2 id="1-明确游戏的创意和目标">1. 明确游戏的创意和目标</h2>
+<p>在开始之前，首先明确您游戏的创意和目标。决定您游戏的类型、主题和玩法。这一步是确保您在整个开发过程中有一个明确的方向的重要一步。</p>
+<h2 id="2-学习基础知识">2. 学习基础知识</h2>
+<h3 id="21-编程语言和工具">2.1 编程语言和工具</h3>
+<p>选择适合您水平的编程语言和开发工具。对于初学者，使用一些易学且功能强大的工具如Scratch、GameSalad、或者使用基于图形的编程界面的工具能够降低学习曲线。</p>
+<h3 id="22-游戏引擎">2.2 游戏引擎</h3>
+<p>了解并选择适合您的游戏的游戏引擎。一些流行的游戏引擎包括Unity、Unreal Engine、Godot等。这些引擎提供了强大的功能和社区支持，适合各种类型的游戏。</p>
+<h2 id="3-创建游戏原型">3. 创建游戏原型</h2>
+<p>在着手全面制作之前，建议先创建一个游戏原型。这可以是纸上的草图，也可以是数字原型。原型有助于您更清晰地看到游戏的基本结构和玩法。</p>
+<h2 id="4-学习游戏开发基础知识">4. 学习游戏开发基础知识</h2>
+<h3 id="41-游戏设计">4.1 游戏设计</h3>
+<p>学习一些基础的游戏设计原则，包括关卡设计、用户界面设计和玩家心理学。这将有助于您更好地构思和规划游戏。</p>
+<h3 id="42-编程基础">4.2 编程基础</h3>
+<p>学习一些基础的编程概念，包括变量、条件语句和循环。这对于编写游戏代码至关重要。如果您选择使用图形界面的工具，也需要了解其操作方法。</p>
+<h2 id="5-开始制作游戏">5. 开始制作游戏</h2>
+<h3 id="51-设计游戏关卡">5.1 设计游戏关卡</h3>
+<p>根据您的游戏设定，设计游戏关卡。确定玩家的目标，设置障碍和挑战，确保游戏的可玩性。</p>
+<h3 id="52-编写游戏代码">5.2 编写游戏代码</h3>
+<p>开始编写游戏的基本代码。如果您使用的是游戏引擎，利用其提供的文档和教程，逐步实现您游戏的功能。</p>
+<h3 id="53-制作游戏图形和音效">5.3 制作游戏图形和音效</h3>
+<p>使用图形设计工具创建游戏中所需的图形元素，包括角色、背景等。同时，添加音效元素，使游戏更加生动有趣。</p>
+<h2 id="6-测试和优化">6. 测试和优化</h2>
+<h3 id="61-测试游戏">6.1 测试游戏</h3>
+<p>定期进行游戏测试，发现潜在的问题和bug。确保游戏的各个方面都能够正常运行。</p>
+<h3 id="62-优化性能">6.2 优化性能</h3>
+<p>根据测试结果，优化游戏的性能。这可能涉及到代码的优化、图形和音效的压缩，以确保游戏在各种设备上都能够流畅运行。</p>
+<h2 id="7-发布游戏">7. 发布游戏</h2>
+<h3 id="71-选择发布平台">7.1 选择发布平台</h3>
+<p>确定您希望将游戏发布到的平台，这可以是PC、移动设备等。确保您了解所选平台的发布要求。</p>
+<h3 id="72-准备发布材料">7.2 准备发布材料</h3>
+<p>准备游戏发布所需的材料，包括游戏图标、描述、截图等。这些元素将影响玩家对您游戏的第一印象。</p>
+<h3 id="73-发布游戏">7.3 发布游戏</h3>
+<p>按照所选平台的发布流程，发布您的游戏。这可能包括创建开发者账户、上传游戏文件等步骤。</p>
+<h2 id="8-宣传和分享">8. 宣传和分享</h2>
+<h3 id="81-制作游戏宣传材料">8.1 制作游戏宣传材料</h3>
+<p>创建游戏宣传材料，包括游戏宣传视频、社交媒体广告等。这有助于提高游戏的知名度。</p>
+<h3 id="82-分享游戏">8.2 分享游戏</h3>
+<p>通过社交媒体、游戏论坛等途径，积极分享您的游戏。收集玩家反馈，并根据反馈进行进一步的优化。</p>
+<h2 id="9-继续学习和改进">9. 继续学习和改进</h2>
+<p>无论您的第一款游戏是成功还是失败，都将其视为学习的过程。继续学习新的技术和知识，改进您的游戏设计和开发技能，为将来的项目做好准备。</p>
+
+        </div>
+
+        
+        
+
+
+
+        
+        
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/wechat-qr-code.png">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/to/your/alipay-qr-code.png">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="http://nagisa969.github.io/tags/blog/">blog</a>
+                <a href="http://nagisa969.github.io/tags/game/">game</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+              <a class="prev" href="/post/game/son-of-asia-tv-contest-strategy-process/">
+                
+                <i class="iconfont">
+                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+                </i>
+                <span class="prev-text nav-default">亚洲之子电视台&#43;大赛攻略流程过法分享</span>
+                <span class="prev-text nav-mobile">上一篇</span>
+              </a>
+            
+              <a class="next" href="/post/game/make-your-own-computer-game/">
+                <span class="next-text nav-default">制作你自己的电脑游戏：从创意到实现的全面指南</span>
+                <span class="prev-text nav-mobile">下一篇</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+
+
+      
+      
+
+  
+
+  
+  
+
+  
+  
+    <div class="post">
+  <script src="https://utteranc.es/client.js"
+        repo= "nagisa969/nagisa969.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+
+    </div>
+
+    
+    <nav class="toc" id="toc">
+    <div class="toc-title">文章目录</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-明确游戏的创意和目标">1. 明确游戏的创意和目标</a></li>
+    <li><a href="#2-学习基础知识">2. 学习基础知识</a>
+      <ul>
+        <li><a href="#21-编程语言和工具">2.1 编程语言和工具</a></li>
+        <li><a href="#22-游戏引擎">2.2 游戏引擎</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-创建游戏原型">3. 创建游戏原型</a></li>
+    <li><a href="#4-学习游戏开发基础知识">4. 学习游戏开发基础知识</a>
+      <ul>
+        <li><a href="#41-游戏设计">4.1 游戏设计</a></li>
+        <li><a href="#42-编程基础">4.2 编程基础</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-开始制作游戏">5. 开始制作游戏</a>
+      <ul>
+        <li><a href="#51-设计游戏关卡">5.1 设计游戏关卡</a></li>
+        <li><a href="#52-编写游戏代码">5.2 编写游戏代码</a></li>
+        <li><a href="#53-制作游戏图形和音效">5.3 制作游戏图形和音效</a></li>
+      </ul>
+    </li>
+    <li><a href="#6-测试和优化">6. 测试和优化</a>
+      <ul>
+        <li><a href="#61-测试游戏">6.1 测试游戏</a></li>
+        <li><a href="#62-优化性能">6.2 优化性能</a></li>
+      </ul>
+    </li>
+    <li><a href="#7-发布游戏">7. 发布游戏</a>
+      <ul>
+        <li><a href="#71-选择发布平台">7.1 选择发布平台</a></li>
+        <li><a href="#72-准备发布材料">7.2 准备发布材料</a></li>
+        <li><a href="#73-发布游戏">7.3 发布游戏</a></li>
+      </ul>
+    </li>
+    <li><a href="#8-宣传和分享">8. 宣传和分享</a>
+      <ul>
+        <li><a href="#81-制作游戏宣传材料">8.1 制作游戏宣传材料</a></li>
+        <li><a href="#82-分享游戏">8.2 分享游戏</a></li>
+      </ul>
+    </li>
+    <li><a href="#9-继续学习和改进">9. 继续学习和改进</a></li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+
+  </div>
+
+      </main>
+
+      <footer id="footer" class="footer">
+        <div class="icon-links">
+  
+  
+    <a href="mailto:qwnm520@gmail.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/nagisa969" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="http://nagisa969.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/xianmin/hugo-theme-jane">Jane</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2023
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        sunny
+        
+      </span></span>
+
+  
+  
+
+  
+</div>
+
+      </footer>
+
+      <div class="button__back-to-top">
+        <a href="#back-to-top">
+          <i class="iconfont">
+            
+            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+          </i>
+        </a>
+      </div>
+    </div>
+    
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.2217a6a25df4f70ebe20416e8bf1ce6b6f972c6e47083cdf8a90b2c6d4f1ff41.js" integrity="sha256-Ihemol309w6&#43;IEFui/HOa2&#43;XLG5HCDzfipCyxtTx/0E=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

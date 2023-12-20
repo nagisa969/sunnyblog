@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technical on sunny博客</title>
+    <link>http://nagisa969.github.io/tags/technical/</link>
+    <description>Recent content in technical on sunny博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 13 Dec 2023 09:06:57 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/tags/technical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何用chatgptAPI生成批量文章内容自动上传到WordPress</title>
+      <link>http://nagisa969.github.io/post/others/how-to-use-chatgptapi-to-generate-bulk-article-content/</link>
+      <pubDate>Wed, 13 Dec 2023 09:06:57 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/post/others/how-to-use-chatgptapi-to-generate-bulk-article-content/</guid>
+      <description>使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），</description>
+    </item>
+    
+  </channel>
+</rss>

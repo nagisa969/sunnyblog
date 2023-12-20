@@ -6,94 +6,58 @@
     <description>Recent content in Categories on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Nov 2023 09:07:58 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Dec 2023 10:11:56 +0800</lastBuildDate><atom:link href="http://nagisa969.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gamble</title>
+      <link>http://nagisa969.github.io/categories/gamble/</link>
+      <pubDate>Wed, 20 Dec 2023 10:11:56 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/categories/gamble/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VPN</title>
+      <link>http://nagisa969.github.io/categories/vpn/</link>
+      <pubDate>Wed, 20 Dec 2023 09:31:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/categories/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEO</title>
+      <link>http://nagisa969.github.io/categories/seo/</link>
+      <pubDate>Wed, 20 Dec 2023 09:06:57 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/categories/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game</title>
+      <link>http://nagisa969.github.io/categories/game/</link>
+      <pubDate>Tue, 19 Dec 2023 09:15:29 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/categories/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>http://nagisa969.github.io/categories/others/</link>
+      <pubDate>Wed, 13 Dec 2023 09:06:57 +0800</pubDate>
+      
+      <guid>http://nagisa969.github.io/categories/others/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>docs</title>
       <link>http://nagisa969.github.io/categories/docs/</link>
-      <pubDate>Thu, 02 Nov 2023 09:07:58 +0800</pubDate>
+      <pubDate>Mon, 30 Oct 2023 11:19:53 +0800</pubDate>
       
       <guid>http://nagisa969.github.io/categories/docs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Development</title>
-      <link>http://nagisa969.github.io/categories/development/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>index</title>
-      <link>http://nagisa969.github.io/categories/index/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>http://nagisa969.github.io/categories/golang/</link>
-      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>demo</title>
-      <link>http://nagisa969.github.io/categories/demo/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/demo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>http://nagisa969.github.io/categories/math/</link>
-      <pubDate>Mon, 04 Mar 2019 16:01:23 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>http://nagisa969.github.io/categories/shortcodes/</link>
-      <pubDate>Tue, 06 Mar 2018 16:01:23 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>http://nagisa969.github.io/categories/english/</link>
-      <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://nagisa969.github.io/categories/test/</link>
-      <pubDate>Wed, 30 Aug 2017 15:43:48 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Syntax Highlighting</title>
-      <link>http://nagisa969.github.io/categories/syntax-highlighting/</link>
-      <pubDate>Tue, 30 Aug 2011 16:01:23 +0800</pubDate>
-      
-      <guid>http://nagisa969.github.io/categories/syntax-highlighting/</guid>
       <description></description>
     </item>
     

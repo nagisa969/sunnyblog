@@ -1,2 +1,9 @@
+User-agent: Googlebot
+Disallow: /post/secend-post/
+Disallow: /post/how-to-do-site-group-seo/
+Disallow: /post/first-post/
+
 User-agent: *
-Sitemap: http://nagisa969.github.io/sitemap.xml
+Allow: /
+
+Sitemap: https://nagisa969.github.io/sitemap.xml

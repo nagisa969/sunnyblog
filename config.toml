@@ -20,7 +20,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 [author]
   name = "sunny"        # essential                     # 必需
-  url = "/about"          # optional                      # 可选
+  url = "/about/"          # optional                      # 可选
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -34,7 +34,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "home"
   pageref = "/"
 [[menu.main]]
-  name = "全部文章"
+  name = "文章"
   weight = 20
   identifier = "archives"
   pageref = "/post/"
@@ -49,10 +49,15 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "categories"
   pageref = "/categories/"
 [[menu.main]]
-  name = "外部链接"
+  name = "关于"
   weight = 50
-  pageref = "https://gohugo.io"
-
+  identifier = "about"
+  url = "/about/"
+[[menu.main]]
+  name = "友情链接"
+  weight = 60
+  identifier = "links"
+  url = "/links/"
 
 [params]
   since = "2017"            # Site creation time          # 站点建立时间
@@ -98,24 +103,24 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
 
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:your@email.com"
-    b-stack-overflow = "http://localhost:1313"
-    c-twitter = "http://localhost:1313"
-    d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
-    f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
-    i-zhihu = "http://localhost:1313"
-    j-douban = "http://localhost:1313"
-    k-pocket = "http://localhost:1313"
-    l-tumblr = "http://localhost:1313"
-    m-instagram = "http://localhost:1313"
-    n-gitlab = "http://localhost:1313"
-    o-goodreads = "http://localhost:1313"
-    p-coding = "http://localhost:1313"
-    q-bilibili = "http://localhost:1313"
-    r-codeforces = "http://localhost:1313"
-    s-mastodon = "http://localhost:1313"
-    t-youtube = "http://localhost:1313"
-    u-twitch = "http://localhost:1313"
+    a-email = "mailto:qwnm520@gmail.com"
+    #b-stack-overflow = "http://localhost:1313"
+    #c-twitter = "http://localhost:1313"
+    #d-facebook = "http://localhost:1313"
+    #e-linkedin = "http://localhost:1313"
+    #f-google = "http://localhost:1313"
+    g-github = "https://github.com/nagisa969"
+    #h-weibo = "http://localhost:1313"
+    #i-zhihu = "http://localhost:1313"
+    #j-douban = "http://localhost:1313"
+    #k-pocket = "http://localhost:1313"
+    #l-tumblr = "http://localhost:1313"
+    #m-instagram = "http://localhost:1313"
+    #n-gitlab = "http://localhost:1313"
+    #o-goodreads = "http://localhost:1313"
+    #p-coding = "http://localhost:1313"
+    #q-bilibili = "http://localhost:1313"
+    #r-codeforces = "http://localhost:1313"
+    #s-mastodon = "http://localhost:1313"
+    #t-youtube = "http://localhost:1313"
+    #u-twitch = "http://localhost:1313"
