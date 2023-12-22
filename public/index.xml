@@ -402,7 +402,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;72-推送到-github&#34;&gt;7.2 推送到 GitHub&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;git remote add origin https://github.com/your-username/your-website.git
- git push -u origin master
+ git push -u origin main
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;将 your-username 和 your-website 替换为你的 GitHub 用户名和仓库名称。&lt;/p&gt;
 &lt;h2 id=&#34;8-启用-github-pages&#34;&gt;8. 启用 GitHub Pages&lt;/h2&gt;

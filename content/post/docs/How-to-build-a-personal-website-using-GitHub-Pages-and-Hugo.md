@@ -101,7 +101,7 @@ Hugo 支持各种主题，你可以在 Hugo 官方主题库 中选择一个喜�
 ### 7.2 推送到 GitHub ###
 
     git remote add origin https://github.com/your-username/your-website.git
-     git push -u origin master
+     git push -u origin main
 
 将 your-username 和 your-website 替换为你的 GitHub 用户名和仓库名称。
 
