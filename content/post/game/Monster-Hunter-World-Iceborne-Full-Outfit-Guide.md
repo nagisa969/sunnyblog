@@ -5,7 +5,7 @@ lastmod: 2023-12-22T09:15:29+08:00
 draft: false
 keywords: ["全衣装", "怪物猎人世界", "怪物猎人冰原"]
 description: "怪物猎人世界一共有20个的特殊装备，分别有17个特殊衣装，3个烟筒。"
-tags: ["blog", "game"]
+tags: ["blog", "game", "怪物猎人世界"]
 categories: ["game"]
 author: "sunny"
 

@@ -5,7 +5,7 @@ lastmod: 2023-12-18T09:15:29+08:00
 draft: false
 keywords: ["怪物猎人", "怪物猎人世界", "怪物猎人冰原"]
 description: "怪物猎人世界冰原简要流程攻略"
-tags: ["blog", "game"]
+tags: ["blog", "game", "怪物猎人世界"]
 categories: ["game"]
 author: "sunny"
 

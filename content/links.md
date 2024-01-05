@@ -12,14 +12,11 @@ mathjax: false
 reward: false
 ---
 
-Hugo is a static site engine written in Go.
+友情网站
 
 
-It makes use of a variety of open source projects including:
+- [玩起来游戏](https://www.688qf.com/)
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+- [博客](https://philadelphiaalternativemedicin.com/)
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+- [MISSAV](https://thisav.com/)

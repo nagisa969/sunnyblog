@@ -5,7 +5,7 @@ lastmod: 2023-12-16T10:15:29+08:00
 draft: false
 keywords: ["亚洲之子", "攻略流程", "新增内容"]
 description: "soa亚洲之子攻略合集亚洲之子V48.8新增内容攻略汇总"
-tags: ["blog", "game"]
+tags: ["blog", "game", "亚洲之子"]
 categories: ["game"]
 author: "sunny"
 

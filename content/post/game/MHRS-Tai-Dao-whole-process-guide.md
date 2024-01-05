@@ -1,11 +1,11 @@
 ---
-title: "怪物猎人崛起曙光太刀开荒全流程攻略"
+title: "《怪物猎人崛起：曙光》太刀开荒全流程攻略"
 date: 2023-12-18T09:15:29+08:00
 lastmod: 2023-12-18T09:15:29+08:00
 draft: false
 keywords: ["怪物猎人", "怪物猎人崛起", "怪物猎人曙光"]
-description: "怪物猎人崛起曙光太刀开荒全流程攻略"
-tags: ["blog", "game"]
+description: "《怪物猎人崛起：曙光》太刀开荒全流程攻略"
+tags: ["blog", "game", "怪物猎人崛起"]
 categories: ["game"]
 author: "sunny"
 

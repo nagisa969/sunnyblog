@@ -5,7 +5,7 @@ lastmod: 2023-12-19T09:15:29+08:00
 draft: false
 keywords: ["亚洲之子", "攻略流程", "教学指南"]
 description: "亚洲之子SOA全人物攻略教学指南三"
-tags: ["blog", "game"]
+tags: ["blog", "game", "亚洲之子"]
 categories: ["game"]
 author: "sunny"
 
