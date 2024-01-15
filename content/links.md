@@ -1,7 +1,7 @@
 ---
 title: "友情链接"
-date: 2017-08-20T21:38:52+08:00
-lastmod: 2017-08-28T21:41:52+08:00
+date: 2023-10-20T21:38:52+08:00
+lastmod: 2023-10-28T21:41:52+08:00
 #menu: "main"
 #weight: 50
 
@@ -12,11 +12,15 @@ mathjax: false
 reward: false
 ---
 
-友情网站
+## 推荐网站 ##
 
 
-- [玩起来游戏](https://www.688qf.com/)
+- [玩起来游戏](https://www.688qf.com?aff=72907) - 各种破解游戏免费玩
 
-- [博客](https://philadelphiaalternativemedicin.com/)
+- [MISSAV](https://thisav.com/) - 你懂的，各种免费看
 
-- [MISSAV](https://thisav.com/)
+- [F95zone](https://f95zone.to/) - 欧美游戏免费玩
+
+- [亚洲之子](https://airtable.com/appWACcnnNRnHZlPO/shrTk6XoBuLuMlI3s/tblQvpxoD3tsuc68n) - 亚洲之子官网下载
+
+- [博客](https://philadelphiaalternativemedicin.com/) - 一个很简单的博客网站
