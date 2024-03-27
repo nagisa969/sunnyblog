@@ -1,5 +1,5 @@
 ---
-title: "关于我"
+title: "关于Sunny博客"
 date: 2023-10-20T21:38:52+08:00
 lastmod: 2024-03-25T21:41:52+08:00
 #menu: "main"
@@ -12,7 +12,7 @@ mathjax: false
 reward: false
 ---
 
-## 个人介绍 ##
+## 网站介绍 ##
 
 
 业余时间搭建的网站，请多指教。

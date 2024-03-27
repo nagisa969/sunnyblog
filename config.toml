@@ -54,23 +54,28 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   identifier = "about"
   url = "/about/"
 [[menu.main]]
-  name = "友情链接"
+  name = "隐私政策"
   weight = 60
+  identifier = "privacy-policy"
+  url = "/privacy-policy/"
+[[menu.main]]
+  name = "友情链接"
+  weight = 70
   identifier = "links"
   url = "/links/"
 [[menu.main]]
   name = "SEO"
-  weight = 70
+  weight = 80
   identifier = "SEO"
   url = "/categories/seo/"
 [[menu.main]]
   name = "VPN"
-  weight = 80
+  weight = 90
   identifier = "VPN"
   url = "/categories/vpn/"
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
+  since = "2023"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
