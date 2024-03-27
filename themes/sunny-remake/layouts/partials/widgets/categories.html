@@ -1,0 +1,14 @@
+{{ if isset .Site.Taxonomies "categories" }}
+{{ if not (eq (len .Site.Taxonomies.categories) 0) }}
+<p class="asidetitle">
+  <a href="{{ $.Site.BaseURL }}categories/">{{ .Site.Params.Strings.Categories | default "分类" }}</a>
+</p>
+<div class="categorieslist">
+  <ul>
+    {{ range $name, $items := .Site.Taxonomies.categories }}
+    <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}" title="{{ $name }}">{{ $name }}</a></li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}
+{{ end }}
