@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+<html
+  lang="zh-cn"
+  itemscope
+  itemtype="http://schema.org/WebPage"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+          wordpress目录结构，数据表  - sunny博客
+        </title>
+    
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J8PVGC2Y9N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J8PVGC2Y9N');
+</script>
+
+    
+<meta name="google-site-verification" content="pSjzkRSbWnNgI-7yywUy2bBR1AsR0Fon6eE4wTmt9Ro" />
+
+
+<meta name="baidu-site-verification" content="codeva-qNCZenuwqC" />
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9147816558956773"
+     crossorigin="anonymous"></script>
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes"/>
+
+<meta name="MobileOptimized" content="width"/>
+<meta name="HandheldFriendly" content="true"/>
+
+
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+<meta name="mobile-web-app-capable" content="yes">
+
+<meta name="author" content="sunny" /><meta name="description" content="wordpress目录结构，数据表详细列表" />
+
+  <meta name="keywords" content="Hugo, theme, Sunny" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.119.0" />
+
+
+<link rel="canonical" href="https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/" />
+
+
+
+
+
+<link rel="icon" href="/favicon.ico" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/sass/jane.min.fe14ae86b973ec2f59b1dd237e013195b83b09e65e1cae71036229c85371dd08.css" integrity="sha256-/hSuhrlz7C9Zsd0jfgExlbg7CeZeHK5xA2IpyFNx3Qg=" media="screen" crossorigin="anonymous">
+
+
+
+
+
+
+
+<meta property="og:title" content="wordpress目录结构，数据表 " />
+<meta property="og:description" content="wordpress目录结构，数据表详细列表" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-03-15T09:31:38+08:00" />
+<meta property="article:modified_time" content="2024-03-15T09:31:38+08:00" />
+<meta itemprop="name" content="wordpress目录结构，数据表 ">
+<meta itemprop="description" content="wordpress目录结构，数据表详细列表"><meta itemprop="datePublished" content="2024-03-15T09:31:38+08:00" />
+<meta itemprop="dateModified" content="2024-03-15T09:31:38+08:00" />
+<meta itemprop="wordCount" content="7362">
+<meta itemprop="keywords" content="blog," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="wordpress目录结构，数据表 "/>
+<meta name="twitter:description" content="wordpress目录结构，数据表详细列表"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+
+
+
+  </head>
+  <body>
+    <div id="back-to-top"></div>
+
+    <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Sunny</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/">主页</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/post/">文章</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/tags/">标签</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/categories/">分类</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/about/">关于</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/links/">友情链接</a>
+          
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          <div class="mobile-menu-parent">
+            <span class="mobile-submenu-open"></span>
+            <a href="https://nagisa969.github.io/categories/seo/">
+              SEO
+            </a>
+          </div>
+          <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/master-seo-analysis-tools/">掌握SEO分析利器：介绍五款优秀的SEO分析工具</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/effective-strategies-and-techniques-to-increase-website-traffic/">提高网站流量的有效策略与技巧</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/">深入了解SEO分析：优化网站排名的关键</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/the-ultimate-guide-to-site-optimization/">站群优化的终极指南：提升效率与可持续性</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/how-to-do-site-group-seo/">怎么做站群SEO</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/">怎么搭建60和120个IP小型站群?</a>
+              </li>
+            
+          </ul>
+        
+      </li><li class="mobile-menu-item">
+        
+          
+          <div class="mobile-menu-parent">
+            <span class="mobile-submenu-open"></span>
+            <a href="https://nagisa969.github.io/categories/vpn/">
+              VPN
+            </a>
+          </div>
+          <ul class="mobile-submenu-list">
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/">VPN能让您更安全吗？</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/vpn-selection-guide/">VPN选择指南：保护隐私与安全的最佳建议</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/free-vpn-service-comparison/">免费VPN服务比较：保障隐私、加密传输的最佳选择</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/">我可以使用 VPN 进行在线赌博吗？</a>
+              </li>
+            
+              <li>
+                <a href="https://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
+              </li>
+            
+          </ul>
+        
+      </li>
+    
+
+    
+  </ul>
+</nav>
+
+
+    
+      
+
+
+
+
+
+
+  <link rel="stylesheet" href="/lib/photoswipe/photoswipe.min.css" />
+  <link rel="stylesheet" href="/lib/photoswipe/default-skin/default-skin.min.css" />
+
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+    
+
+    
+
+    
+
+
+    <header id="header" class="header">
+      <div class="logo-wrapper">
+  <a href="/" class="logo">
+    
+      Sunny
+    
+  </a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/">主页</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/post/">文章</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/tags/">标签</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/categories/">分类</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/about/">关于</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          
+            <a class="menu-item-link" href="https://nagisa969.github.io/links/">友情链接</a>
+          
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="https://nagisa969.github.io/categories/seo/">SEO</a>
+          <ul class="submenu">
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/seo-optimization-guide/">SEO优化指南：提升网站排名的关键步骤</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/seo-basics/">SEO基础知识：提高网站排名的五大关键策略</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/seo-website-group/">SEO站群：优化策略与实践</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/what-is-seo-search-engine-optimization/">什么是SEO – 搜索引擎优化？</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/master-seo-analysis-tools/">掌握SEO分析利器：介绍五款优秀的SEO分析工具</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/effective-strategies-and-techniques-to-increase-website-traffic/">提高网站流量的有效策略与技巧</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/">深入了解SEO分析：优化网站排名的关键</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/the-ultimate-guide-to-site-optimization/">站群优化的终极指南：提升效率与可持续性</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/how-to-do-site-group-seo/">怎么做站群SEO</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/seo/how-to-build-60-and-120-ip-small-site-groups/">怎么搭建60和120个IP小型站群?</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+        <li class="menu-item">
+        
+          
+          <a class="menu-item-link menu-parent" href="https://nagisa969.github.io/categories/vpn/">VPN</a>
+          <ul class="submenu">
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/vpn-make-you-more-secure/">VPN能让您更安全吗？</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/vpn-selection-guide/">VPN选择指南：保护隐私与安全的最佳建议</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/free-vpn-service-comparison/">免费VPN服务比较：保障隐私、加密传输的最佳选择</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/comprehensive-analysis-of-vpn/">全面解析VPN：保护你的在线隐私与安全</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/use-vpn-to-gamble-online/">我可以使用 VPN 进行在线赌博吗？</a>
+              </li>
+            
+              <li class="submenu-item">
+                <a href="https://nagisa969.github.io/post/vpn/choosing-the-best-vpn/">选择最佳VPN：保障隐私与安全的重要步骤</a>
+              </li>
+            
+          </ul>
+
+        
+
+      </li>
+    
+
+    
+    
+
+    
+  </ul>
+</nav>
+
+    </header>
+
+    <div id="mobile-panel">
+      <main id="main" class="main bg-llight wallpaper">
+        <div class="content-wrapper">
+    
+    <nav class="toc" id="toc">
+    <div class="toc-title">文章目录</div>
+    <div class="toc-content custom-scrollbar">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#1wordpress目录结构">1，Wordpress目录结构</a>
+      <ul>
+        <li><a href="#根目录">根目录</a></li>
+        <li><a href="#wp-admin目录">wp-admin目录</a></li>
+        <li><a href="#wp-includes目录">wp-includes目录</a></li>
+      </ul>
+    </li>
+    <li><a href="#2数据表结构">2，数据表结构</a>
+      <ul>
+        <li><a href="#wp_commentmeta文章评论额外信息表">wp_commentmeta：文章评论额外信息表</a></li>
+        <li><a href="#wp_comments文章评论信息表">wp_comments：文章评论信息表</a></li>
+        <li><a href="#wp_links存储友情链接blogroll">wp_links：存储友情链接（Blogroll）</a></li>
+        <li><a href="#wp_options基本配置信息表">wp_options：基本配置信息表 </a></li>
+        <li><a href="#wp_postmeta文章额外数据表">wp_postmeta：文章额外数据表</a></li>
+        <li><a href="#wp_posts文章信息表">wp_posts：文章信息表</a></li>
+        <li><a href="#wp_term_relationships分类与文章信息表wp_posts链接表wp_links的关联表">wp_term_relationships：分类与文章信息表（wp_posts）、链接表(wp_links)的关联表。</a></li>
+        <li><a href="#wp_term_taxonomy分类信息表">wp_term_taxonomy：分类信息表</a></li>
+        <li><a href="#wp_termmeta">wp_termmeta</a></li>
+        <li><a href="#wp_terms文章分类链接分类标签的信息表">wp_terms：文章分类、链接分类、标签的信息表。</a></li>
+        <li><a href="#wp_usermeta用户额外信息表">wp_usermeta：用户额外信息表</a></li>
+        <li><a href="#wp_users用户基本信息表">wp_users：用户基本信息表。</a></li>
+        <li><a href="#wordpress数据库表之间的关系">WordPress数据库表之间的关系</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+  </nav>
+
+    
+    <div id="content" class="content">
+      <article class="post">
+        
+        <header class="post-header">
+          <h1 class="post-title">wordpress目录结构，数据表 </h1>
+          
+
+          <div class="post-meta">
+  <div class="post-meta-author">
+    by
+      <a href="/about/">
+        <span class="post-meta-author-name">
+          sunny
+        </span>
+      </a>
+    
+  </div>
+
+  <div class="post-meta-time">
+    <time datetime="2024-03-15">
+      2024-03-15
+    </time>
+  </div>
+
+  
+
+
+  <div class="post-meta__right">
+    <span class="post-meta-more">
+        约 7362 字 -
+        预计阅读 15 分钟
+      </span>
+
+    <div class="post-meta-category">
+        <a href="https://nagisa969.github.io/categories/docs/"> docs </a>
+          
+      </div>
+
+
+    
+    
+
+
+    
+    
+  </div>
+</div>
+
+        </header>
+
+        
+        <div class="post-content">
+          <h2 id="1wordpress目录结构">1，Wordpress目录结构</h2>
+<h3 id="根目录">根目录</h3>
+<ol>
+<li>index.php：wordpress核心索引文件，即博客输出文件。</li>
+<li>license.txt：WordPress GPL许可证文件。</li>
+<li>my-hacks.php：定义了博客输出之前处理的追加程序。默认安装中并没有这个文件，但如果存在，它就会被管理页面引用。</li>
+<li>readme.html：WordPress安装导言。</li>
+<li>wp-atom.php：输出Atom信息聚合内容。</li>
+<li>wp-blog-header.php：根据博客参数定义博客页面显示内容。</li>
+<li>wp-cron.php</li>
+<li>wp-comments-post.php：接收评论，并把其添加到数据库。</li>
+<li>wp-commentsrss2.php：用来生成日志评论的RSS2信息聚合内容。</li>
+<li>wp-config-sample.php：把WordPress连接到MySQL数据库的示例配置文件。</li>
+<li>wp-config.php：这是真正把WordPress连接到MySQL数据库的配置文件。默认安装中虽不包括它，但由于WordPress运行需要这一文件，因此，用户需要编辑这个文件以更改相关设置。</li>
+<li>wp-feed.php：根据请求定义feed类型并其返回feed请求文件。</li>
+<li>wp-links-opml.php：生成OPML格式的链接(通过WordPress管理菜单添加）列表。</li>
+<li>wp-login.php：定义注册用户的登陆页面。</li>
+<li>wp-mail.php：用来获取通过邮件提交的博文。这个文件的URL通常被添加到cron任务中，这样cron就会定期检索文件并接收邮件日志。</li>
+<li>wp-pass.php：审核受密码保护文章的密码并显示被保护文章。</li>
+<li>wp-rdf.php：生成RDF信息聚合内容。</li>
+<li>wp-register.php：允许新用户通过联机表单注册用户名。</li>
+<li>wp-rss.php：生成RSS信息聚合内容。</li>
+<li>wp-rss2.php：生成RSS2信息聚合内容。</li>
+<li>wp-settings.php：运行执行前的例行程序，包括检查安装是否正确，使用辅助函数，应用用户</li>
+<li>wp-trackback.php：处理trackback请求。</li>
+<li>wp.php：显示博客日志的简单模板。并没有什么神奇之处，但包括了部分index.php内容。</li>
+<li>xmlrpc.php：处理xmlrpc请求。用户无需通过内置的网络管理界面就可发布文章。</li>
+<li>wp-activate.php 处理登录信息</li>
+</ol>
+<h3 id="wp-admin目录">wp-admin目录</h3>
+<ol>
+<li>wp-admin/admin.php：管理文件的核心文件。用来连接数据库，整合动态菜单数据，显示非核心控制页面等。</li>
+<li>wp-admin/admin-db.php</li>
+<li>wp-admin/admin-footer.php：定义所有管理控制台的页脚。</li>
+<li>wp-admin/admin-functions.php：定义了管理控制台使用的多种函数。</li>
+<li>wp-admin/admin- header.php：定义了管理控制台的上半部分内容，包括菜单逻辑 （menu logic）的 menu-header.php文件。</li>
+<li>wp-admin/bookmarklet.php：使用书签功能时，定义弹出页面。撰写日志时使用默认的edit-form.php文件。</li>
+<li>wp-admin/categories.php：定义管理页面的类别管理。参考: Manage – Categories</li>
+<li>wp-admin/cat-js.php</li>
+<li>wp-admin/edit.php：定义管理页面的日志管理。参考: Manage – Posts</li>
+<li>wp-admin/edit-comments.php：定义管理页面的评论管理。参考: Manage – Comments</li>
+<li>wp-admin/edit-form-advanced.php：定义管理页面的日志高级编辑形式管理，包括post.php。参考: Write – Write Post – Advanced</li>
+<li>wp-admin/edit-form.php：定义管理页面的日志简单编辑形式管理，包括post.php。参考: Write – Write Post</li>
+<li>wp-admin/edit-form-comment.php：编辑特定日志评论。</li>
+<li>wp-admin/edit-form-ajax-cat.php</li>
+<li>wp-admin/edit-link-form.php</li>
+<li>wp-admin/edit-page-form.php：定义管理模块页面的页面编辑，包括post.php和page-new.php。参考: Write – Write Page</li>
+<li>wp-admin/edit-pages.php：定义管理模块页面的页面管理。参考: Manage – Pages</li>
+<li>wp-admin/execute-pings.php</li>
+<li>wp-admin/import.php</li>
+<li>wp-admin/index.php：默认管理页面。根据用户请求显示相应的页面。</li>
+<li>wp-admin/inline-uploading.php</li>
+<li>wp-admin/install-helper.php：定义数据库维护函数，包括popular-in-plugins maybe_create_table() 和maybe_add_column()。</li>
+<li>wp-admin/install.php：安装WordPress。</li>
+<li>wp-admin/link-add.php：链接添加。参考: Links – Add Link</li>
+<li>wp-admin/link-categories.php：链接分类管理。参考: Links – Link Categories</li>
+<li>wp-admin/link-import.php：导入链接。参考: Links – Import Links</li>
+<li>wp-admin/link-manager.php：链接管理。参考: Links – Manage Links</li>
+<li>wp-admin/link-parse-opml.ph：导入链接时，用来解析OPML文件。</li>
+<li>wp-admin/list-manipulation.js</li>
+<li>wp-admin/list-manipulation.php</li>
+<li>wp-admin/menu-header.php：用于在管理界面显示菜单。</li>
+<li>wp-admin/menu.php：定义了默认管理菜单结构。</li>
+<li>wp-admin/moderation.php：定义了评论审核函数。</li>
+<li>wp-admin/options.php：升级后，用来更改所有设置。</li>
+<li>wp-admin/options-discussion.php：管理评论和trackback相关选项。参考: Options – Discussion</li>
+<li>wp-admin/options-general.php：管理基本配置选项。参考: Options – General</li>
+<li>wp-admin/options-head.php</li>
+<li>wp-admin/options-misc.php：设置文件上传，链接跟踪，自定义”hacks”等相关选项。参考：Options – Miscellaneous</li>
+<li>wp-admin/options-permalink.php：管理永久链接选项。参考: Options – Permalinks</li>
+<li>wp-admin/options-reading.php：设置如何把网站信息发送到读者浏览器或其它应用程序。参考: Options – Reading</li>
+<li>wp-admin/options-writing.php：管理日志撰写界面。参考:Options – Writing</li>
+<li>wp-admin/page-new.php：创建新页面。</li>
+<li>wp-admin/plugin-editor.php：编辑插件文件。</li>
+<li>wp-admin/plugins.php：管理插件。</li>
+<li>wp-admin/post.php：创建新日志。</li>
+<li>wp-admin/profile-update.php</li>
+<li>wp-admin/profile.php：管理个人资料或配置。</li>
+<li>wp-admin/setup-config.php：安装时，用来创建wp-config.php文件。</li>
+<li>wp-admin/sidebar.php</li>
+<li>wp-admin/templates.php：编辑服务器可写文件。</li>
+<li>wp-admin/theme-editor.php：编辑特定主题中的文件。</li>
+<li>wp-admin/themes.php：管理主题。</li>
+<li>wp-admin/update-links.php</li>
+<li>wp-admin/upgrade-functions.php：定义了版本升级函数。</li>
+<li>wp-admin/upgrade-schema.php：定义了升级中使用的默认表格结构和选项。</li>
+<li>wp-admin/upgrade.php：版本升级。</li>
+<li>wp-admin/user-edit.php：编辑用户。</li>
+<li>wp-admin/users.php：管理用户。</li>
+<li>wp-admin/wp-admin.css：定义了管理控制台的默认样式表。</li>
+<li>wp-admin/xfn.js</li>
+</ol>
+<h3 id="wp-includes目录">wp-includes目录</h3>
+<ol>
+<li>wp-includes/cache.php</li>
+<li>wp-includes/capabilities.php</li>
+<li>wp-includes/class-IXR.php：Incutio XML-RPC库。包括了 XML RPC支持函数。由http://scripts.incutio.com/xmlrpc/提供支持。</li>
+<li>wp-includes/classes.php：包括了基本的类，如核心文章提取机制WP_Query和改写管理WP_Rewrite。</li>
+<li>wp-includes/class-pop3.php：包括了支持使用POP邮箱的类。可供wp-mail.php 使用。</li>
+<li>wp-includes/class-snoopy.php：Snoopy是一个PHP类，用来模仿Web浏览器的功能，它能自动完成检索网页和发送表单的任务。</li>
+<li>wp-includes/comment-functions.php</li>
+<li>wp-includes/default-filters.php</li>
+<li>wp-includes/feed-functions.php</li>
+<li>wp-includes/functions-compat.php：即新版本PHP中用来支持老版本PHP的函数文件。</li>
+<li>wp-includes/functions-formatting.php：用于清理XHTML和用特定字符集正确格式化文本。</li>
+<li>wp-includes/functions-post.php：定义了在数据库中管理日志，查询用户权限，提取和撰写评论等函数。</li>
+<li>wp-includes/functions.php：包含许多重要的支持函数，它是WordPress中最大的文件，函数数量几乎是第二大文件的两倍。</li>
+<li>wp-includes/gettext.php：PHP-gettext GPL 翻译库组成部分。</li>
+<li>wp-includes/kses.php：用来渲染和过滤日志或评论中的HTML。</li>
+<li>wp-includes/links.php：用来管理和使用WordPress的链接功能。</li>
+<li>wp-includes/locale.php：用来替代默认的星期和月份值。</li>
+<li>wp-includes/pluggable-functions.php</li>
+<li>wp-includes/registration-functions.php</li>
+<li>wp-includes/rss-functions.php</li>
+<li>wp-includes/streams.php：定义了包装文件流和字符流的类。</li>
+<li>wp-includes/template-functions-author.php：包含了与日志作者或评论人相关的主题函数。</li>
+<li>wp-includes/template-functions-category.php：包含了与类别相关的主题函数。</li>
+<li>wp-includes/template-functions-comment.php：包含了与评论相关的主题函数。</li>
+<li>wp-includes/template-functions-general.php：包含了常规主题函数。</li>
+<li>wp-includes/template-functions-links.php：包含了与链接相关的主题函数。</li>
+<li>wp-includes/template-functions-post.php：包含了与日志相关的主题函数。</li>
+<li>wp-includes/template-functions.php：包含了以上所有”template-”文件。</li>
+<li>wp-includes/template-loader.php</li>
+<li>wp-includes/vars.php：用来设置杂项变量。</li>
+<li>wp-includes/version.php：用来设置当前使用的WordPress版本。</li>
+<li>wp-includes/wp-db.php：包含了用来连接MySQL数据库的函数。</li>
+<li>wp-includes/wp-l10n.php：提供支持多语言版本的函数。</li>
+</ol>
+<h2 id="2数据表结构">2，数据表结构</h2>
+<h3 id="wp_commentmeta文章评论额外信息表">wp_commentmeta：文章评论额外信息表</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>meta_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>comment_id</td>
+<td>BIGINT</td>
+<td>对应评论ID</td>
+</tr>
+<tr>
+<td>meta_key</td>
+<td>VARCHAR</td>
+<td>键名</td>
+</tr>
+<tr>
+<td>meta_value</td>
+<td>LONGTEXT</td>
+<td>键值</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_comments文章评论信息表">wp_comments：文章评论信息表</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>comment_ID</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>comment_post_ID</td>
+<td>BIGINT</td>
+<td>对应文章ID</td>
+</tr>
+<tr>
+<td>comment_author</td>
+<td>TINYTEXT</td>
+<td>评论者</td>
+</tr>
+<tr>
+<td>comment_author_email</td>
+<td>VARCHAR</td>
+<td>评论者邮箱</td>
+</tr>
+<tr>
+<td>comment_author_url</td>
+<td>VARCHAR</td>
+<td>评论者网址</td>
+</tr>
+<tr>
+<td>comment_author_IP</td>
+<td>VARCHAR</td>
+<td>评论者IP</td>
+</tr>
+<tr>
+<td>comment_date</td>
+<td>DATETIME</td>
+<td>评论时间</td>
+</tr>
+<tr>
+<td>comment_date_gmt</td>
+<td>DATETIME</td>
+<td>评论时间（GMT+0时间）</td>
+</tr>
+<tr>
+<td>comment_content</td>
+<td>TEXT</td>
+<td>评论正文</td>
+</tr>
+<tr>
+<td>comment_karma</td>
+<td>INT</td>
+<td></td>
+</tr>
+<tr>
+<td>comment_approved</td>
+<td>VARCHAR</td>
+<td>评论是否被批准</td>
+</tr>
+<tr>
+<td>comment_agent</td>
+<td>VARCHAR</td>
+<td>评论者的USER AGENT</td>
+</tr>
+<tr>
+<td>comment_type</td>
+<td>VARCHAR</td>
+<td>评论类型(pingback/普通)</td>
+</tr>
+<tr>
+<td>comment_parent</td>
+<td>BIGINT</td>
+<td>父评论ID</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>BIGINT</td>
+<td>评论者用户ID（不一定存在）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_links存储友情链接blogroll">wp_links：存储友情链接（Blogroll）</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>link_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>link_url</td>
+<td>VARCHAR</td>
+<td>链接URL</td>
+</tr>
+<tr>
+<td>link_name</td>
+<td>VARCHAR</td>
+<td>链接标题</td>
+</tr>
+<tr>
+<td>link_image</td>
+<td>VARCHAR</td>
+<td>链接图片</td>
+</tr>
+<tr>
+<td>link_target</td>
+<td>VARCHAR</td>
+<td>链接打开方式</td>
+</tr>
+<tr>
+<td>link_description</td>
+<td>VARCHAR</td>
+<td>链接描述</td>
+</tr>
+<tr>
+<td>link_visible</td>
+<td>VARCHAR</td>
+<td>是否可见（Y/N）</td>
+</tr>
+<tr>
+<td>link_owner</td>
+<td>BIGINT</td>
+<td>添加者用户ID</td>
+</tr>
+<tr>
+<td>link_rating</td>
+<td>INT</td>
+<td>评分等级</td>
+</tr>
+<tr>
+<td>link_updated</td>
+<td>DATETIME</td>
+<td></td>
+</tr>
+<tr>
+<td>link_rel</td>
+<td>VARCHAR</td>
+<td>XFN关系</td>
+</tr>
+<tr>
+<td>link_notes</td>
+<td>MEDIUMTEXT</td>
+<td>XFN注释</td>
+</tr>
+<tr>
+<td>link_rss</td>
+<td>VARCHAR</td>
+<td>链接RSS地址</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_options基本配置信息表">wp_options：基本配置信息表 </h3>
+<p>存储WordPress系统选项和插件、主题配置 ，通常通过get_option来操作，该表通常作为插件存储数据的一个地方。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>option_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>option_name</td>
+<td>VARCHAR</td>
+<td>键名</td>
+</tr>
+<tr>
+<td>option_value</td>
+<td>LONGTEXT</td>
+<td>键值</td>
+</tr>
+<tr>
+<td>autoload</td>
+<td>VARCHAR</td>
+<td>在WordPress载入时自动载入（yes/no）</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_postmeta文章额外数据表">wp_postmeta：文章额外数据表</h3>
+<p>例如文章浏览次数，文章的自定义字段等都存储在这里。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>meta_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>post_id</td>
+<td>BIGINT</td>
+<td>博客ID，用于多用户博客，默认0</td>
+</tr>
+<tr>
+<td>meta_key</td>
+<td>VARCHAR</td>
+<td>键名</td>
+</tr>
+<tr>
+<td>meta_value</td>
+<td>LONGTEXT</td>
+<td>键值</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_posts文章信息表">wp_posts：文章信息表</h3>
+<p>包括了日志、附件、页面等等信息。是WordPress最重要的一个数据表。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>post_author</td>
+<td>BIGINT</td>
+<td>对应作者ID</td>
+</tr>
+<tr>
+<td>post_date</td>
+<td>DATETIME</td>
+<td>发布时间</td>
+</tr>
+<tr>
+<td>post_date_gmt</td>
+<td>DATETIME</td>
+<td>发布时间（GMT+0时间）</td>
+</tr>
+<tr>
+<td>post_content</td>
+<td>LONGTEXT</td>
+<td>正文</td>
+</tr>
+<tr>
+<td>post_title</td>
+<td>TEXT</td>
+<td>标题</td>
+</tr>
+<tr>
+<td>post_excerpt</td>
+<td>TEXT</td>
+<td>摘录</td>
+</tr>
+<tr>
+<td>post_status</td>
+<td>VARCHAR</td>
+<td>文章状态（publish/auto-draft/inherit等）</td>
+</tr>
+<tr>
+<td>comment_status</td>
+<td>VARCHAR</td>
+<td>评论状态（open/closed）</td>
+</tr>
+<tr>
+<td>ping_status</td>
+<td>VARCHAR</td>
+<td>PING状态（open/closed）</td>
+</tr>
+<tr>
+<td>post_password</td>
+<td>VARCHAR</td>
+<td>文章密码</td>
+</tr>
+<tr>
+<td>post_name</td>
+<td>VARCHAR</td>
+<td>文章缩略名</td>
+</tr>
+<tr>
+<td>to_ping</td>
+<td>TEXT</td>
+<td></td>
+</tr>
+<tr>
+<td>pinged</td>
+<td>TEXT</td>
+<td>已经PING过的链接</td>
+</tr>
+<tr>
+<td>post_modified</td>
+<td>DATETIME</td>
+<td>修改时间</td>
+</tr>
+<tr>
+<td>post_modified_gmt</td>
+<td>DATETIME</td>
+<td>修改时间（GMT+0时间）</td>
+</tr>
+<tr>
+<td>post_content_filtered</td>
+<td>LONGTEXT</td>
+<td></td>
+</tr>
+<tr>
+<td>post_parent</td>
+<td>BIGINT</td>
+<td>父文章，主要用于PAGE</td>
+</tr>
+<tr>
+<td>guid</td>
+<td>VARCHAR</td>
+<td></td>
+</tr>
+<tr>
+<td>menu_order</td>
+<td>INT</td>
+<td>排序ID</td>
+</tr>
+<tr>
+<td>post_type</td>
+<td>VARCHAR</td>
+<td>文章类型（post/page等）</td>
+</tr>
+<tr>
+<td>post_mime_type</td>
+<td>VARCHAR</td>
+<td>MIME类型</td>
+</tr>
+<tr>
+<td>comment_count</td>
+<td>BIGINT</td>
+<td>评论总数</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_term_relationships分类与文章信息表wp_posts链接表wp_links的关联表">wp_term_relationships：分类与文章信息表（wp_posts）、链接表(wp_links)的关联表。</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>object_id</td>
+<td>BIGINT</td>
+<td>对应文章ID/链接ID</td>
+</tr>
+<tr>
+<td>term_taxonomy_id</td>
+<td>BIGINT</td>
+<td>对应分类方法ID</td>
+</tr>
+<tr>
+<td>term_order</td>
+<td>INT</td>
+<td>排序</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_term_taxonomy分类信息表">wp_term_taxonomy：分类信息表</h3>
+<p>区分wp_terms信息的分类类型，有category、link_category和tag三种分类类型。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>term_taxonomy_id</td>
+<td>BIGINT</td>
+<td>分类方法ID</td>
+</tr>
+<tr>
+<td>term_id</td>
+<td>BIGINT</td>
+<td>分类ID</td>
+</tr>
+<tr>
+<td>taxonomy</td>
+<td>VARCHAR</td>
+<td>分类方法(category/post_tag)</td>
+</tr>
+<tr>
+<td>description</td>
+<td>LONGTEXT</td>
+<td></td>
+</tr>
+<tr>
+<td>parent</td>
+<td>BIGINT</td>
+<td>所属父分类方法ID</td>
+</tr>
+<tr>
+<td>count</td>
+<td>BIGINT</td>
+<td>文章数统计</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_termmeta">wp_termmeta</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>meta_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>term_id</td>
+<td>BIGINT</td>
+<td>分类ID</td>
+</tr>
+<tr>
+<td>meta_key</td>
+<td>VARCHAR</td>
+<td>键名</td>
+</tr>
+<tr>
+<td>meta_value</td>
+<td>LONGTEXT</td>
+<td>键值</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_terms文章分类链接分类标签的信息表">wp_terms：文章分类、链接分类、标签的信息表。</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>term_id</td>
+<td>BIGINT</td>
+<td>分类ID</td>
+</tr>
+<tr>
+<td>name</td>
+<td>VARCHAR</td>
+<td>分类名</td>
+</tr>
+<tr>
+<td>slug</td>
+<td>VARCHAR</td>
+<td>缩略名</td>
+</tr>
+<tr>
+<td>term_group</td>
+<td>BIGINT</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_usermeta用户额外信息表">wp_usermeta：用户额外信息表</h3>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>umeta_id</td>
+<td>BIGINT</td>
+<td>自增唯一ID</td>
+</tr>
+<tr>
+<td>user_id</td>
+<td>BIGINT</td>
+<td>对应用户ID</td>
+</tr>
+<tr>
+<td>meta_key</td>
+<td>VARCHAR</td>
+<td>键名</td>
+</tr>
+<tr>
+<td>meta_value</td>
+<td>LONGTEXT</td>
+<td>键值</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wp_users用户基本信息表">wp_users：用户基本信息表。</h3>
+<p>存放系统所有用户基本信息。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ID</td>
+<td>BIGINT</td>
+<td>自增ID</td>
+</tr>
+<tr>
+<td>user_login</td>
+<td>VARCHAR</td>
+<td>登录名</td>
+</tr>
+<tr>
+<td>user_pass</td>
+<td>VARCHAR</td>
+<td>密码</td>
+</tr>
+<tr>
+<td>user_nicename</td>
+<td>VARCHAR</td>
+<td>昵称</td>
+</tr>
+<tr>
+<td>user_email</td>
+<td>VARCHAR</td>
+<td>Email</td>
+</tr>
+<tr>
+<td>user_url</td>
+<td>VARCHAR</td>
+<td>网址</td>
+</tr>
+<tr>
+<td>user_registered</td>
+<td>DATETIME</td>
+<td>注册时间</td>
+</tr>
+<tr>
+<td>user_activation_key</td>
+<td>VARCHAR</td>
+<td>激活码</td>
+</tr>
+<tr>
+<td>user_status</td>
+<td>INT</td>
+<td>用户状态</td>
+</tr>
+<tr>
+<td>display_name</td>
+<td>VARCHAR</td>
+<td>显示名称</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wordpress数据库表之间的关系">WordPress数据库表之间的关系</h3>
+<p>要搞明白这个问题以及对WordPress数据表之间的关系有更加深刻的理解，让我们先来想想WordPress博客系统的功能，默认安装的WordPress版本博客系统涉及的数据信息主要包括了用户信息、分类信息、链接信息、文章信息、文章评论信息、基本配置信息这6类信息。</p>
+<p>用户信息：系统中所有注册用户的帐号信息。
+分类信息：包括了文章分类、链接分类、标签这3中分类信息。
+链接信息：就是博客系统中的友情链接信息。
+文章信息：博客系统中的日志、日志产生的附件、页面等信息。
+文章评论信息：对具体日志或者附件的评论信息。
+基本配置信息：系统中的基本配置信息，例如博客名称，博客地址等等。
+WordPress数据库的11个数据表就是为了存储以上6类数据信息而设计，这些表之间的总体关系结构如下图所示：</p>
+<p>image</p>
+<table>
+<thead>
+<tr>
+<th>信息 类型</th>
+<th>涉及数据表及关联关系</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用户信息</td>
+<td>数据表：wp_users、wp_usermeta，关联关系：wp_users.ID-&gt;wp_usermeta.user_id</td>
+</tr>
+<tr>
+<td>分类信息</td>
+<td>数据表：wp_terms、wp_term_taxonomy关联关系：wp_terms.term_id-&gt;wp_term_taxonomy.term_id</td>
+</tr>
+<tr>
+<td>链接信息</td>
+<td>数据表：wp_links、wp_term_relationships、wp_terms、wp_term_taxonomy、 wp_users、wp_usermeta关联关系：一，确定链接所属分类 （1）wp_links.link_id-&gt;wp_term_relationships.object_id， （2）wp_term_relationships.term_taxonomy_id-&gt;wp_term_taxonomy.term_taxonomy_id （该关系还要取决与wp_term_taxonomy表中的taxonomy分类类型为“link_category”） （3）wp_terms.term_id-&gt;wp_term_taxonom.term_id二、确定链接所有者 （4）wp_links.link_owner-&gt;wp_users.ID（5）wp_users.ID-&gt;wp_usermeta.user_id</td>
+</tr>
+<tr>
+<td>文章信息</td>
+<td>数据表：wp_posts、wp_postmeta、wp_comments、wp_term_relationships、wp_terms、 wp_term_taxonomy、wp_users、wp_usermeta关联关系：一、确定文章信息 （1）wp_posts.ID-&gt;wp_postsmeta.post_id二、确定文章评论 （2）wp_posts.ID-&gt;wp_comments.comment_post_id三、确定文章评论的作者 （3）wp_comments.comment_author-&gt;wp_users.ID（4）wp_users.ID-&gt;wp_usermeta.user_id四、确定文章所属分类（5）wp_posts.ID-&gt;wp_term_relationships.object_id，（6）wp_term_relationships.term_taxonomy_id-&gt;wp_term_taxonomy.term_taxonomy_id （该关系还要取决与wp_term_taxonomy表中的taxonomy分类类型为“category”或者“tag”）（7）wp_terms-&gt;term_id-&gt;wp_term_taxonomy五、确定文章作者（8）wp_posts.author-&gt;wp_users.ID;（9）wp_users.ID-&gt;wp_usermeta.user_id</td>
+</tr>
+<tr>
+<td>文章评论信息</td>
+<td>数据表：wp_comments、wp_posts、wp_users、wp_usermeta关联关系： 一、确定评论的文章 （1）wp_comments.comment_post_id-&gt;wp_posts.ID 二、确定评论的作者 （2）wp_comments.comment_author-&gt;wp_users.ID（3）wp_users.ID-&gt;wp_usermeta.user_id</td>
+</tr>
+<tr>
+<td>基本配置信息</td>
+<td>数据表：wp_options没有关联关系</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+
+        
+        
+
+
+
+        
+        
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/wechat-qr-code.jpg" alt="wechat">
+        <span>微信打赏</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/path/alipay-qr-code.jpg" alt="alipay">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div>
+
+
+        <footer class="post-footer">
+          <div class="post-tags">
+              <a href="https://nagisa969.github.io/tags/blog/">blog</a>
+                
+            </div>
+
+
+          
+          <nav class="post-nav">
+            
+              <a class="prev" href="/post/seo/master-seo-analysis-tools/">
+                
+                <i class="iconfont">
+                  <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
+</svg>
+
+                </i>
+                <span class="prev-text nav-default">掌握SEO分析利器：介绍五款优秀的SEO分析工具</span>
+                <span class="prev-text nav-mobile">上一篇</span>
+              </a>
+            
+              <a class="next" href="/post/game/son-of-asia-v60-new-content-guide/">
+                <span class="next-text nav-default">SOA亚洲之子V60.0e最终大结局新增内容攻略汇总</span>
+                <span class="prev-text nav-mobile">下一篇</span>
+                
+                <i class="iconfont">
+                  <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="18" height="18">
+  <path d="M332.091514 74.487481l-75.369571 89.491197c-10.963703 12.998035-10.285251 32.864502 1.499144 44.378743l286.278095 300.375162L266.565125 819.058374c-11.338233 12.190647-11.035334 32.285311 0.638543 44.850487l80.46666 86.564541c11.680017 12.583596 30.356378 12.893658 41.662889 0.716314l377.434212-421.426145c11.332093-12.183484 11.041474-32.266891-0.657986-44.844348l-80.46666-86.564541c-1.772366-1.910513-3.706415-3.533476-5.750981-4.877077L373.270379 71.774697C361.493148 60.273758 343.054193 61.470003 332.091514 74.487481z"></path>
+</svg>
+
+                </i>
+              </a>
+          </nav>
+        </footer>
+      </article>
+
+      
+      
+
+
+      
+      
+
+  
+
+  
+  
+
+  
+  
+    <div class="post">
+  <script src="https://utteranc.es/client.js"
+        repo= "nagisa969/nagisa969.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+  </script>
+</div>
+
+  
+
+  
+
+  
+
+    
+
+  
+
+  
+
+
+    </div>
+
+    <nav class="sidebar" id="sidebar" >
+  
+<p class="asidetitle">
+<a href="https://nagisa969.github.io/post/">最近文章</a>
+</p>
+<div class="archiveslist">
+    <div class="archiveslist widget">
+      <h4 class="widget__title"></h4>
+      <div class="widget__content">
+        <ul class="widget__list">
+          <time datetime="2024-03-27" class="archive-post-time">
+            2024-03-27
+          </time>
+          <li class="widget__item"><a class="widget__link" href="/post/seo/learn-more-about-seo-analysis/">深入了解SEO分析：优化网站排名的关键</a></li>
+          <time datetime="2024-03-27" class="archive-post-time">
+            2024-03-27
+          </time>
+          <li class="widget__item"><a class="widget__link" href="/post/seo/master-seo-analysis-tools/">掌握SEO分析利器：介绍五款优秀的SEO分析工具</a></li>
+          <time datetime="2024-03-15" class="archive-post-time">
+            2024-03-15
+          </time>
+          <li class="widget__item"><a class="widget__link" href="/post/docs/wordpress-directory-structure-data-table/">wordpress目录结构，数据表 </a></li>
+          <time datetime="2024-02-29" class="archive-post-time">
+            2024-02-29
+          </time>
+          <li class="widget__item"><a class="widget__link" href="/post/game/son-of-asia-v60-new-content-guide/">SOA亚洲之子V60.0e最终大结局新增内容攻略汇总</a></li>
+          <time datetime="2024-01-22" class="archive-post-time">
+            2024-01-22
+          </time>
+          <li class="widget__item"><a class="widget__link" href="/post/game/son-of-asia-v55-new-content-guide/">亚洲之子V55.5新增内容攻略汇总</a></li>
+        </ul>
+      </div>
+    </div>
+
+</div>
+
+
+
+  
+
+<p class="asidetitle">
+  <a href="https://nagisa969.github.io/categories/">分类</a>
+</p>
+<div class="categorieslist">
+  <ul>
+    
+    <li><a href="https://nagisa969.github.io/categories/docs" title="docs">docs</a></li>
+    
+    <li><a href="https://nagisa969.github.io/categories/gamble" title="gamble">gamble</a></li>
+    
+    <li><a href="https://nagisa969.github.io/categories/game" title="game">game</a></li>
+    
+    <li><a href="https://nagisa969.github.io/categories/others" title="others">others</a></li>
+    
+    <li><a href="https://nagisa969.github.io/categories/seo" title="seo">seo</a></li>
+    
+    <li><a href="https://nagisa969.github.io/categories/vpn" title="vpn">vpn</a></li>
+    
+  </ul>
+</div>
+
+
+
+  
+
+<p class="asidetitle">
+  <a href="https://nagisa969.github.io/tags/">标签</a>
+</p>
+<div class="tagcloudlist">
+  <div class="tagcloudlist clearfix">
+    
+    <a href="https://nagisa969.github.io/tags/blog" style="font-size: 12px;">blog</a>
+    
+    <a href="https://nagisa969.github.io/tags/gamble" style="font-size: 12px;">gamble</a>
+    
+    <a href="https://nagisa969.github.io/tags/game" style="font-size: 12px;">game</a>
+    
+    <a href="https://nagisa969.github.io/tags/seo" style="font-size: 12px;">seo</a>
+    
+    <a href="https://nagisa969.github.io/tags/technical" style="font-size: 12px;">technical</a>
+    
+    <a href="https://nagisa969.github.io/tags/vpn" style="font-size: 12px;">vpn</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e4%ba%9a%e6%b4%b2%e4%b9%8b%e5%ad%90" style="font-size: 12px;">亚洲之子</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e5%88%9b%e4%b8%96%e7%a7%a9%e5%ba%8f" style="font-size: 12px;">创世秩序</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e6%80%aa%e7%89%a9%e7%8c%8e%e4%ba%ba%e4%b8%96%e7%95%8c" style="font-size: 12px;">怪物猎人世界</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e6%80%aa%e7%89%a9%e7%8c%8e%e4%ba%ba%e5%b4%9b%e8%b5%b7" style="font-size: 12px;">怪物猎人崛起</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e7%94%9f%e5%8c%96%e5%8d%b1%e6%9c%ba" style="font-size: 12px;">生化危机</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e8%af%85%e5%92%92%e9%93%a0%e7%94%b2" style="font-size: 12px;">诅咒铠甲</a>
+    
+    <a href="https://nagisa969.github.io/tags/%e8%af%85%e5%92%92%e9%93%a0%e7%94%b22" style="font-size: 12px;">诅咒铠甲2</a>
+    
+  </div>
+</div>
+
+
+
+  <p class="asidetitle">
+  <span>日历</span>
+</p>
+<div class="calendar" id="calendar-app">
+  <div class="calendar--day-view" id="day-view">
+    <span class="day-view-exit" id="day-view-exit">&times;</span>
+    <span class="day-view-date" id="day-view-date">MAY 29 2016</span>
+    <div class="day-view-content">
+      <div class="day-highlight">
+        You <span class="day-events" id="day-events">had no events for today</span>. &nbsp; <span tabindex="0" onkeyup="if(event.keyCode != 13) return; this.click();" class="day-events-link" id="add-event" data-date>Add a new event?</span>
+      </div>
+      <div class="day-add-event" id="add-day-event-box" data-active="false">
+        <div class="row">
+          <div class="half">
+            <label class="add-event-label">
+               Name of event
+              <input type="text" class="add-event-edit add-event-edit--long" placeholder="New event" id="input-add-event-name">
+             
+            </label>
+          </div>
+          <div class="qtr">
+            <label class="add-event-label">
+          Start Time
+              <input type="text" class="add-event-edit" placeholder="8:15" id="input-add-event-start-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+              <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-start-ampm" data-options="a,p,am,pm">
+            </label>
+          </div>
+          <div class="qtr">
+            <label class="add-event-label">
+          End Time
+              <input type="text" class="add-event-edit" placeholder="9" id="input-add-event-end-time" data-options="1,2,3,4,5,6,7,8,9,10,11,12" data-format="datetime">
+              <input type="text" class="add-event-edit" placeholder="am" id="input-add-event-end-ampm" data-options="a,p,am,pm">
+            </label>
+          </div>
+          <div class="half">
+            <a onkeyup="if(event.keyCode != 13) return; this.click();" tabindex="0" id="add-event-save" class="event-btn--save event-btn">save</a>
+            <a tabindex="0" id="add-event-cancel" class="event-btn--cancel event-btn">cancel</a>
+          </div>
+        </div>
+        
+      </div>
+      <div id="day-events-list" class="day-events-list">
+        
+      </div>
+      <div class="day-inspiration-quote" id="inspirational-quote">
+        Every child is an artist.  The problem is how to remain an artist once he grows up. –Pablo Picasso
+      </div>
+    </div>
+  </div>
+  <div class="calendar--view" id="calendar-view">
+    <div class="cview__month">
+      <span class="cview__month-last" id="calendar-month-last">4月</span>
+      <span class="cview__month-current" id="calendar-month">5月</span>
+      <span class="cview__month-next" id="calendar-month-next">6月</span>
+    </div>
+    <div class="cview__header">日</div>
+    <div class="cview__header">一</div>
+    <div class="cview__header">二</div>
+    <div class="cview__header">三</div>
+    <div class="cview__header">四</div>
+    <div class="cview__header">五</div>
+    <div class="cview__header">六</div>
+    <div class="calendar--view" id="dates">
+    </div>
+  </div>
+  <div class="footer">
+    <span><span id="footer-date" class="footer__link">今天是5月29号</span></span>    
+  </div>
+</div>
+</nav>
+
+
+  </div>
+
+      </main>
+
+      <footer id="footer" class="footer">
+        <div class="icon-links">
+  
+  
+    <a href="mailto:qwnm520@gmail.com" rel="me noopener" class="iconfont"
+      title="email" >
+      <svg class="icon" viewBox="0 0 1451 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M664.781909 681.472759 0 97.881301C0 3.997201 71.046997 0 71.046997 0L474.477909 0 961.649408 0 1361.641813 0C1361.641813 0 1432.688811 3.997201 1432.688811 97.881301L771.345323 681.472759C771.345323 681.472759 764.482731 685.154773 753.594283 688.65053L753.594283 688.664858C741.602731 693.493018 729.424896 695.068979 718.077952 694.839748 706.731093 695.068979 694.553173 693.493018 682.561621 688.664858L682.561621 688.65053C671.644501 685.140446 664.781909 681.472759 664.781909 681.472759L664.781909 681.472759ZM718.063616 811.603883C693.779541 811.016482 658.879232 802.205449 619.10784 767.734955 542.989056 701.759633 0 212.052267 0 212.052267L0 942.809523C0 942.809523 0 1024 83.726336 1024L682.532949 1024 753.579947 1024 1348.948139 1024C1432.688811 1024 1432.688811 942.809523 1432.688811 942.809523L1432.688811 212.052267C1432.688811 212.052267 893.138176 701.759633 817.019477 767.734955 777.248 802.205449 742.347691 811.03081 718.063616 811.603883L718.063616 811.603883Z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://twitter.com/NagisaZuo" rel="me noopener" class="iconfont"
+      title="twitter"  target="_blank"
+      >
+      <svg class="icon" viewBox="0 0 1264 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M1229.8616 18.043658c0 0-117.852626 63.135335-164.151872 67.344358-105.225559-164.151872-505.082682-92.598492-437.738325 223.078185C278.622548 312.675223 89.216542 47.506814 89.216542 47.506814s-117.852626 189.406006 75.762402 345.139833C127.097743 396.85567 55.544363 371.601535 55.544363 371.601535S26.081207 535.753407 253.368414 615.724832c-21.045112 29.463156-113.643603 8.418045-113.643603 8.418045s25.254134 143.10676 231.496229 180.987961c-143.10676 130.479693-387.230056 92.598492-370.393967 105.225559 206.242095 189.406006 1119.599946 231.496229 1128.01799-643.98042C1179.353331 249.539887 1263.533778 123.269217 1263.533778 123.269217s-130.479693 37.881201-138.897738 33.672179C1225.652577 98.015083 1229.8616 18.043658 1229.8616 18.043658"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://www.facebook.com/zuo.nagisa" rel="me noopener" class="iconfont"
+      title="facebook"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="33" height="33">
+  <path d="M965.7344 2.7648c14.848 0 28.2624 5.5296 40.2432 16.6912C1017.9584 30.5152 1024 43.52 1024 58.2656l0 910.2336c0 14.848-6.0416 27.7504-18.0224 38.8096C993.8944 1018.4704 980.48 1024 965.7344 1024L704.9216 1024 704.9216 629.9648l133.2224 0 19.456-155.4432-152.576 0L705.024 373.0432c0-50.688 25.9072-76.0832 77.7216-76.0832l80.4864 0L863.232 163.5328c-27.7504-5.4272-67.4816-8.192-119.296-8.192-59.1872 0-106.8032 18.0224-142.9504 54.0672C564.736 245.5552 546.7136 296.0384 546.7136 360.7552l0 113.7664L413.4912 474.5216l0 155.4432 133.2224 0L546.7136 1024 55.5008 1024c-14.848 0-27.7504-5.5296-38.8096-16.6912C5.5296 996.2496 0 983.3472 0 968.4992L0 58.2656C0 43.52 5.5296 30.5152 16.6912 19.456c11.0592-11.0592 24.064-16.6912 38.8096-16.6912L965.7344 2.7648z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://www.linkedin.com/in/zuo-nagisa-4703b916a/" rel="me noopener" class="iconfont"
+      title="linkedin"  target="_blank"
+      >
+      <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="33" height="33">
+  <path d="M872.405333 872.618667h-151.637333v-237.610667c0-56.661333-1.152-129.578667-79.018667-129.578667-79.061333 0-91.136 61.653333-91.136 125.397334v241.792H398.976V384h145.664v66.602667h1.962667c20.352-38.4 69.845333-78.933333 143.786666-78.933334 153.642667 0 182.058667 101.12 182.058667 232.746667v268.202667zM227.712 317.141333a87.978667 87.978667 0 0 1-88.021333-88.106666 88.064 88.064 0 1 1 88.021333 88.106666z m76.032 555.477334H151.68V384h152.064v488.618667zM948.266667 0H75.562667C33.792 0 0 33.024 0 73.770667v876.458666C0 991.018667 33.792 1024 75.562667 1024h872.576C989.866667 1024 1024 991.018667 1024 950.229333V73.770667C1024 33.024 989.866667 0 948.138667 0h0.128z"></path>
+</svg>
+
+    </a>
+  
+    <a href="https://github.com/nagisa969" rel="me noopener" class="iconfont"
+      title="github"  target="_blank"
+      >
+      <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="36" height="36">
+  <path d="M512 12.672c-282.88 0-512 229.248-512 512 0 226.261333 146.688 418.133333 350.08 485.76 25.6 4.821333 34.986667-11.008 34.986667-24.618667 0-12.16-0.426667-44.373333-0.64-87.04-142.421333 30.890667-172.458667-68.693333-172.458667-68.693333C188.672 770.986667 155.008 755.2 155.008 755.2c-46.378667-31.744 3.584-31.104 3.584-31.104 51.413333 3.584 78.421333 52.736 78.421333 52.736 45.653333 78.293333 119.850667 55.68 149.12 42.581333 4.608-33.109333 17.792-55.68 32.426667-68.48-113.706667-12.8-233.216-56.832-233.216-253.013333 0-55.893333 19.84-101.546667 52.693333-137.386667-5.76-12.928-23.04-64.981333 4.48-135.509333 0 0 42.88-13.738667 140.8 52.48 40.96-11.392 84.48-17.024 128-17.28 43.52 0.256 87.04 5.888 128 17.28 97.28-66.218667 140.16-52.48 140.16-52.48 27.52 70.528 10.24 122.581333 5.12 135.509333 32.64 35.84 52.48 81.493333 52.48 137.386667 0 196.693333-119.68 240-233.6 252.586667 17.92 15.36 34.56 46.762667 34.56 94.72 0 68.522667-0.64 123.562667-0.64 140.202666 0 13.44 8.96 29.44 35.2 24.32C877.44 942.592 1024 750.592 1024 524.672c0-282.752-229.248-512-512-512"></path>
+</svg>
+
+    </a>
+
+
+<a href="https://nagisa969.github.io/index.xml" rel="noopener alternate" type="application/rss&#43;xml"
+    class="iconfont" title="rss" target="_blank">
+    <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="30" height="30">
+  <path d="M819.157333 1024C819.157333 574.592 449.408 204.8 0 204.8V0c561.706667 0 1024 462.293333 1024 1024h-204.842667zM140.416 743.04a140.8 140.8 0 0 1 140.501333 140.586667A140.928 140.928 0 0 1 140.074667 1024C62.72 1024 0 961.109333 0 883.626667s62.933333-140.544 140.416-140.586667zM678.784 1024h-199.04c0-263.210667-216.533333-479.786667-479.744-479.786667V345.173333c372.352 0 678.784 306.517333 678.784 678.826667z"></path>
+</svg>
+
+  </a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - <a class="theme-link" href="https://github.com/nagisa969/sunnyblog">Sunny Remake</a>
+  </span>
+
+  <span class="copyright-year">
+    &copy;
+    
+      2017 -
+    2024
+    <span class="heart">
+      
+      <i class="iconfont">
+        <svg class="icon" viewBox="0 0 1025 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="14" height="14">
+  <path d="M1000.1 247.9c-15.5-37.3-37.6-70.6-65.7-98.9-54.4-54.8-125.8-85-201-85-85.7 0-166 39-221.4 107.4C456.6 103 376.3 64 290.6 64c-75.1 0-146.5 30.4-201.1 85.6-28.2 28.5-50.4 61.9-65.8 99.3-16 38.8-24 79.9-23.6 122.2 0.7 91.7 40.1 177.2 108.1 234.8 3.1 2.6 6 5.1 8.9 7.8 14.9 13.4 58 52.8 112.6 102.7 93.5 85.5 209.9 191.9 257.5 234.2 7 6.1 15.8 9.5 24.9 9.5 9.2 0 18.1-3.4 24.9-9.5 34.5-30.7 105.8-95.9 181.4-165 74.2-67.8 150.9-138 195.8-178.2 69.5-57.9 109.6-144.4 109.9-237.3 0.1-42.5-8-83.6-24-122.2z"
+   fill="#8a8a8a"></path>
+</svg>
+
+      </i>
+    </span><span class="author">
+        sunny
+        
+      </span></span>
+
+  
+  
+
+  
+</div>
+
+      </footer>
+
+      <div class="button__back-to-top">
+        <a href="#back-to-top">
+          <i class="iconfont">
+            
+            <svg class="icon" viewBox="0 0 1024 1024" version="1.1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="35" height="35">
+  <path d="M510.866688 227.694839 95.449397 629.218702l235.761562 0-2.057869 328.796468 362.40389 0L691.55698 628.188232l241.942331-3.089361L510.866688 227.694839zM63.840492 63.962777l894.052392 0 0 131.813095L63.840492 195.775872 63.840492 63.962777 63.840492 63.962777zM63.840492 63.962777"></path>
+</svg>
+
+          </i>
+        </a>
+      </div>
+    </div>
+    
+<script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+
+
+
+
+<script type="text/javascript" src="/js/main.fd070108fbba9016f952003addd21aa1d6ee3e7f085aa1ccae70cffd51f3b3ba.js" integrity="sha256-/QcBCPu6kBb5UgA63dIaodbuPn8IWqHMrnDP/VHzs7o=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe.min.js"></script>
+    <script type="text/javascript" src="/lib/photoswipe/photoswipe-ui-default.min.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -6,7 +6,52 @@
     <description>Recent content in Posts on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Jan 2024 09:15:29 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 09:06:57 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入了解SEO分析：优化网站排名的关键</title>
+      <link>https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/</link>
+      <pubDate>Wed, 27 Mar 2024 09:06:57 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/</guid>
+      <description>在当今数字化时代，拥有一个网站对于企业的成功至关重要。然而，仅仅拥有一个精美的网站并不足以吸引大量的流量和潜在客户。这就是SEO（搜索引擎优</description>
+    </item>
+    
+    <item>
+      <title>掌握SEO分析利器：介绍五款优秀的SEO分析工具</title>
+      <link>https://nagisa969.github.io/post/seo/master-seo-analysis-tools/</link>
+      <pubDate>Wed, 27 Mar 2024 09:06:57 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/seo/master-seo-analysis-tools/</guid>
+      <description>在当今竞争激烈的网络世界中，拥有一个优质的网站是吸引流量和客户的关键。然而，要想在搜索引擎结果页面（SERP）中脱颖而出，就需要借助SEO（</description>
+    </item>
+    
+    <item>
+      <title>wordpress目录结构，数据表 </title>
+      <link>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</link>
+      <pubDate>Fri, 15 Mar 2024 09:31:38 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</guid>
+      <description>1，Wordpress目录结构 根目录 index.php：wordpress核心索引文件，即博客输出文件。 license.txt：WordPr</description>
+    </item>
+    
+    <item>
+      <title>SOA亚洲之子V60.0e最终大结局新增内容攻略汇总</title>
+      <link>https://nagisa969.github.io/post/game/son-of-asia-v60-new-content-guide/</link>
+      <pubDate>Thu, 29 Feb 2024 09:15:29 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/game/son-of-asia-v60-new-content-guide/</guid>
+      <description>V60.0e 更新日志： &amp;lt;剧情&amp;gt; 新增了波多野结衣(教育部长)的新剧情，包含164+视频，16+事件 新增了田中瞳(市长)的新剧情，包含166+</description>
+    </item>
+    
+    <item>
+      <title>亚洲之子V55.5新增内容攻略汇总</title>
+      <link>https://nagisa969.github.io/post/game/son-of-asia-v55-new-content-guide/</link>
+      <pubDate>Mon, 22 Jan 2024 09:15:29 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/game/son-of-asia-v55-new-content-guide/</guid>
+      <description>V55.5 更新日志： &amp;lt;剧情&amp;gt; 1.新增了三年二班的新新剧情，第二排的6个人。 2.最终篇的序幕。 V55.5新增内容攻略 酒蒙子（苍本董） 解锁条</description>
+    </item>
+    
     <item>
       <title>《怪物猎人世界：冰原》大师级主线剧情任务流程一览</title>
       <link>https://nagisa969.github.io/post/game/mhwi-master-level-main-story-mission-overview/</link>
@@ -140,51 +185,6 @@
       
       <guid>https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/</guid>
       <description>公会线是支线，但同时也是魔虫线的主线前置之一，完成后可以触发奴隶线的公主剧情。 公会线开启的条件是完成催眠线-强奸魔线和地下水脉线，并与会长互</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）催眠线（支线）攻略</title>
-      <link>https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</link>
-      <pubDate>Fri, 29 Dec 2023 02:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/</guid>
-      <description>催眠线各结局达成条件： 催眠线（学院线）Bad End A：进入学院后30天内未能获得5000银能或与贝莉卡最终战战败后达成 催眠线（学院线）Bad End B</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）遗迹线（主线）攻略</title>
-      <link>https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</link>
-      <pubDate>Fri, 29 Dec 2023 01:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/</guid>
-      <description>遗迹线各结局达成条件： Normal End:帝国遗迹最终战前，灵魂契约 = 6。 Good End A:帝国遗迹最终战前，灵魂契约 &amp;lt; 6，处女并获得公会雇佣兵给的2样道具（多</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）完整流程攻略二</title>
-      <link>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</link>
-      <pubDate>Thu, 28 Dec 2023 10:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/cursed-armor-guide-2/</guid>
-      <description>寄生线 这将是一个简短的任务，触发它的条件并不多。你只需要接受“收集寄生虫卵”任务并前往洞穴即可。与警卫交谈，让他让你通过并前往地铁。探索它，</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲（Cursed Armor）完整流程攻略一</title>
-      <link>https://nagisa969.github.io/post/game/cursed-armor-guide/</link>
-      <pubDate>Thu, 28 Dec 2023 09:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/cursed-armor-guide/</guid>
-      <description>序言线 序言是游戏的第一部分，我们看到莉莉娜在游戏真正开始之前发生了什么。玩家可以跳过序言：他们可以在选择难度级别后做出选择。 简单与正常相同，</description>
-    </item>
-    
-    <item>
-      <title>诅咒铠甲2（Cursed Armor2）V4.55完整流程攻略</title>
-      <link>https://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</link>
-      <pubDate>Wed, 27 Dec 2023 10:15:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/curse-armor2-v4.55-complete-process-guide/</guid>
-      <description>游戏只有一种GOOD END：索菲亚拥有第一次打败魔王，两次选择不杀贝莉卡(圣物线，拿水神的结晶，在败给三蛇女的战斗后，对话旁边的女NPC巴赫</description>
     </item>
     
   </channel>

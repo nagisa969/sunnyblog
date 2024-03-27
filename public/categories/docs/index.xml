@@ -6,7 +6,16 @@
     <description>Recent content in docs on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jan 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Mar 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/categories/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>wordpress目录结构，数据表 </title>
+      <link>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</link>
+      <pubDate>Fri, 15 Mar 2024 09:31:38 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</guid>
+      <description>1，Wordpress目录结构 根目录 index.php：wordpress核心索引文件，即博客输出文件。 license.txt：WordPr</description>
+    </item>
+    
     <item>
       <title>HUGO的JANE主题添加侧边导航栏</title>
       <link>https://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>

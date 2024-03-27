@@ -6,7 +6,34 @@
     <description>Recent content in blog on sunny博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 09 Jan 2024 09:31:38 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 09:06:57 +0800</lastBuildDate><atom:link href="https://nagisa969.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入了解SEO分析：优化网站排名的关键</title>
+      <link>https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/</link>
+      <pubDate>Wed, 27 Mar 2024 09:06:57 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/seo/learn-more-about-seo-analysis/</guid>
+      <description>在当今数字化时代，拥有一个网站对于企业的成功至关重要。然而，仅仅拥有一个精美的网站并不足以吸引大量的流量和潜在客户。这就是SEO（搜索引擎优</description>
+    </item>
+    
+    <item>
+      <title>掌握SEO分析利器：介绍五款优秀的SEO分析工具</title>
+      <link>https://nagisa969.github.io/post/seo/master-seo-analysis-tools/</link>
+      <pubDate>Wed, 27 Mar 2024 09:06:57 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/seo/master-seo-analysis-tools/</guid>
+      <description>在当今竞争激烈的网络世界中，拥有一个优质的网站是吸引流量和客户的关键。然而，要想在搜索引擎结果页面（SERP）中脱颖而出，就需要借助SEO（</description>
+    </item>
+    
+    <item>
+      <title>wordpress目录结构，数据表 </title>
+      <link>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</link>
+      <pubDate>Fri, 15 Mar 2024 09:31:38 +0800</pubDate>
+      
+      <guid>https://nagisa969.github.io/post/docs/wordpress-directory-structure-data-table/</guid>
+      <description>1，Wordpress目录结构 根目录 index.php：wordpress核心索引文件，即博客输出文件。 license.txt：WordPr</description>
+    </item>
+    
     <item>
       <title>HUGO的JANE主题添加侧边导航栏</title>
       <link>https://nagisa969.github.io/post/docs/add-side-navigation-bar-to-hogo-jane-theme/</link>
@@ -158,33 +185,6 @@
       
       <guid>https://nagisa969.github.io/post/game/the-genesis-order-password-drawing-kama-sutra-collection-guide/</guid>
       <description>图纸： 1、电缆绳索 教堂入口右侧图纸：教堂左侧阁楼绳索、码头鱼钩、仓库电缆、农场电缆 2、砍刀 农场谷仓左侧图纸：商业街左侧垃圾桶磨刀器；希瑟家厨</description>
-    </item>
-    
-    <item>
-      <title>创世秩序（The Genesis Order）V75052-V84081全剧情流程CG攻略</title>
-      <link>https://nagisa969.github.io/post/game/the-genesis-order-v75-v84-full-story-cg-guide/</link>
-      <pubDate>Tue, 26 Dec 2023 10:40:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/the-genesis-order-v75-v84-full-story-cg-guide/</guid>
-      <description>创世秩序攻略（The Genesis Order）V75052 书接上文：（V69——V75） 前往那啥用品店，触发剧情，需要找到丢失的书： 24、前往烧烤店厨房</description>
-    </item>
-    
-    <item>
-      <title>创世秩序（The Genesis Order）V55124-V69041全剧情流程CG攻略</title>
-      <link>https://nagisa969.github.io/post/game/the-genesis-order-v55-v69-full-story-cg-guide/</link>
-      <pubDate>Tue, 26 Dec 2023 10:35:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/the-genesis-order-v55-v69-full-story-cg-guide/</guid>
-      <description>创世秩序攻略（The Genesis Order）V55124 跟着上面的，就把剧情流程给过一遍了，具体可看我的前作 18、接到金伯利的电话，前往电视台四楼，得</description>
-    </item>
-    
-    <item>
-      <title>创世秩序（The Genesis Order）V49111全剧情流程CG攻略全爱经收集位置</title>
-      <link>https://nagisa969.github.io/post/game/the-genesis-order-v49111-full-story-cg-guide/</link>
-      <pubDate>Tue, 26 Dec 2023 10:31:29 +0800</pubDate>
-      
-      <guid>https://nagisa969.github.io/post/game/the-genesis-order-v49111-full-story-cg-guide/</guid>
-      <description>更新了非常多的内容，且质量没有丝毫的减少，照着自己上次写的，开了全程跳过所有对话和CG，来看看自己写的有没有疏漏，有添加会记下来，但不会再写</description>
     </item>
     
   </channel>
