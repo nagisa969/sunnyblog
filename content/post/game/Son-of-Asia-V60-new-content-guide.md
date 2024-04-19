@@ -1,15 +1,15 @@
 ---
-title: "SOA亚洲之子V60.0e最终大结局新增内容攻略汇总"
+title: "SOA亚洲之子V60.0最终大结局新增内容攻略汇总"
 date: 2024-02-29T09:15:29+08:00
 lastmod: 2024-02-29T09:15:29+08:00
 draft: false
 keywords: ["亚洲之子", "攻略流程", "新增内容"]
-description: "亚洲之子V60.0e新增内容攻略汇总 新角色剧情攻略"
+description: "亚洲之子V60.0e新增内容攻略汇总 SOAV60.0新角色剧情攻略"
 tags: ["game", "亚洲之子"]
 categories: ["game"]
 author: "sunny"
 
-# weight: 1
+weight: 1
 
 # You can also close(false) or open(true) something for this content.
 # P.S. comment can only be closed

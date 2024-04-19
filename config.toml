@@ -2,11 +2,11 @@
 # If you want to see the full configuration, please check `full-config.toml` .
 # And see https://gohugo.io/getting-started/configuration/ .
 
-baseURL = "https://nagisa969.github.io/"
+baseURL = "https://www.sunnybrook-ai.com/"
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "zh-cn"           # Default language to use
 languageCode = "zh-cn"
-title = "sunny博客"
+title = "Sunny博客 - SEO和游戏的爱好者乐园"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -19,7 +19,7 @@ googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]
-  name = "sunny"        # essential                     # 必需
+  name = "Sunny"        # essential                     # 必需
   url = "/about/"          # optional                      # 可选
 
 [sitemap]                 # essential                     # 必需
@@ -80,9 +80,9 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Sunny"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","Sunny"]
-  description = "发布收藏一些自己喜欢的文章。"
+  logoTitle = "Sunny博客"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["SEO", "博客","Sunny"]
+  description = "欢迎来到Sunny博客，这里主要发布和收藏一些游戏和SEO的文章。如若喜欢请留言关注，订阅，捐赠，谢谢。"
 
   # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
   dateFormatToUse = "2006-01-02"
@@ -116,7 +116,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/alipay-qr-code.jpg"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:qwnm520@gmail.com"
+    a-Sunny = "https://www.sunnybrook-ai.com/"
     #b-stack-overflow = "http://localhost:1313"
     c-twitter = "https://twitter.com/NagisaZuo"
     d-facebook = "https://www.facebook.com/zuo.nagisa"
@@ -127,13 +127,15 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     #i-zhihu = "http://localhost:1313"
     #j-douban = "http://localhost:1313"
     #k-pocket = "http://localhost:1313"
-    #l-tumblr = "http://localhost:1313"
-    #m-instagram = "http://localhost:1313"
+    l-tumblr = "https://www.tumblr.com/sunny3210"
+    m-instagram = "https://www.instagram.com/nagisazuo42/"
     #n-gitlab = "http://localhost:1313"
     #o-goodreads = "http://localhost:1313"
     #p-coding = "http://localhost:1313"
     #q-bilibili = "http://localhost:1313"
     #r-codeforces = "http://localhost:1313"
     #s-mastodon = "http://localhost:1313"
-    #t-youtube = "http://localhost:1313"
+    t-youtube = "https://www.youtube.com/@ZuoNagisa"
     #u-twitch = "http://localhost:1313"
+    v-tiktok = "https://www.tiktok.com/@nagisa982"
+    w-email = "mailto:qwnm520@gmail.com"

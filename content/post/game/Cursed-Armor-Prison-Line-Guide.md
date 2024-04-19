@@ -140,18 +140,18 @@ author: "sunny"
 
 ## 其他攻略： ##
 
-[遗迹线：【诅咒铠甲】遗迹线（主线）攻略](https://nagisa969.github.io/post/game/cursed-armor-relic-line-guide/)
+[遗迹线：【诅咒铠甲】遗迹线（主线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-relic-line-guide/)
 
-[催眠线：【诅咒铠甲】催眠线（支线）攻略](https://nagisa969.github.io/post/game/cursed-armor-hypnosis-line-guide/)
+[催眠线：【诅咒铠甲】催眠线（支线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-hypnosis-line-guide/)
 
-[公会线：【诅咒铠甲】公会线（支线）攻略](https://nagisa969.github.io/post/game/cursed-armor-guild-line-guide/)
+[公会线：【诅咒铠甲】公会线（支线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-guild-line-guide/)
 
-[奴隶线：【诅咒铠甲】奴隶线（支线）攻略](https://nagisa969.github.io/post/game/cursed-armor-slave-line-guide/)
+[奴隶线：【诅咒铠甲】奴隶线（支线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-slave-line-guide/)
 
-[魔虫线：【诅咒铠甲】魔虫线（真结局）攻略](https://nagisa969.github.io/post/game/cursed-armor-abbadon-line-guide/)
+[魔虫线：【诅咒铠甲】魔虫线（真结局）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-abbadon-line-guide/)
 
-[圣兽线：【诅咒铠甲】圣兽线（支线）攻略](https://nagisa969.github.io/post/game/cursed-armor-sacred-beast-line-guide/)
+[圣兽线：【诅咒铠甲】圣兽线（支线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-sacred-beast-line-guide/)
 
-[监狱线：【诅咒铠甲】监狱线（支线）攻略](https://nagisa969.github.io/post/game/cursed-armor-prison-line-guide/)
+[监狱线：【诅咒铠甲】监狱线（支线）攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-prison-line-guide/)
 
-[小支线、小事件：【诅咒铠甲】小支线、小事件攻略](https://nagisa969.github.io/post/game/cursed-armor-independent-quests-and-events-guide/)
+[小支线、小事件：【诅咒铠甲】小支线、小事件攻略](https://www.sunnybrook-ai.com/post/game/cursed-armor-independent-quests-and-events-guide/)

@@ -12,6 +12,7 @@ mathjax: false
 reward: false
 ---
 
+
 ## 推荐网站 ##
 
 
@@ -21,7 +22,7 @@ reward: false
 
 - [F95zone](https://f95zone.to/) - 欧美游戏免费玩
 
-- [亚洲之子](https://airtable.com/appWACcnnNRnHZlPO/shrTk6XoBuLuMlI3s/tblQvpxoD3tsuc68n) - 亚洲之子官网下载
+- [亚洲之子](https://airtable.com/appWACcnnNRnHZlPO/shrTk6XoBuLuMlI3s/tblQvpxoD3tsuc68n) - 亚洲之子官网下载(作者已下架)
 
-- [博客](https://philadelphiaalternativemedicin.com/) - 一个很简单的博客网站
+- [博客](https://www.vipasiatravel.com/) - 一个很简单的博客网站
 

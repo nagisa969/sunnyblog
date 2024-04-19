@@ -128,9 +128,9 @@ brew install hugo
 
 **baseURL**
 
-baseURL = "https://example.com/" #把https://example.com/改成自己的域名
+baseURL = " https://www.sunnybrook-ai.com/ "  #把https://www.sunnybrook-ai.com/改成自己的域名
 
-如果你没有在 GitHub Pages 中设置自定义域名，这里的域名应该填 https://<username>.github.io/ （⚠️ 注意：最后的/不要忘了加）
+如果你没有在 GitHub Pages 中设置自定义域名，这里的域名应该填 https://nagisa969.github.io/ （⚠️ 注意：最后的/不要忘了加）
 
 **themes**
 
@@ -197,7 +197,7 @@ GitHub Pages 仓库的 SSH 链接可以在这里查看：
 转到 GitHub 查看 GitHub Pages 仓库中是否存在刚刚推送的文件，存在则代表推送成功。
 
 
-如果你没有设置自定义域名，且把 comfig.toml 文件中的 baseURL 设置为 https://<username>.github.io，就可以在 https://username.github.io 中查看刚刚创建的网站。 ( 👀 我使用的是自定义域名，所以这里用我的自定义域名查看。)
+如果你没有设置自定义域名，且把 comfig.toml 文件中的 baseURL 设置为 https://nagisa969.github.io，就可以在 https://nagisa969.github.io 中查看刚刚创建的网站。 ( 👀 我使用的是自定义域名，所以这里用我的自定义域名查看。)
 
 
 ## 后续的更新步骤：

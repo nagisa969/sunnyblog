@@ -28,7 +28,7 @@ mathjax: true
 #     weight: 1
 ---
 
-![](/img/wheel_of_fortune_slot_machine.jpg)
+![命运之轮老虎机](/img/wheel_of_fortune_slot_machine.jpg)
 
 命运之轮老虎机是世界上最受欢迎的赌场游戏之一。 这款 5 卷轴、多奖金功能游戏提供众多奖金功能和累积奖金，甚至可以在移动设备上玩，更加方便。 游戏玩法直观简单，使其成为初学者和任何寻求快速赚钱的有趣方式的人的完美选择！
 
