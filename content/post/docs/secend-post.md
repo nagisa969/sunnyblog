@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: ""
 tags: ["blog"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # Uncomment to pin article to front page

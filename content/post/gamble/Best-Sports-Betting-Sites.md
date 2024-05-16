@@ -6,7 +6,7 @@ draft: false
 keywords: ["在线博彩", "博彩网站", "体育博彩"]
 description: "选择可靠且安全的在线活动博彩网站，在探索它们时必须检查具体原则。首先要检查的是该网站是否合法，其次是可靠性。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

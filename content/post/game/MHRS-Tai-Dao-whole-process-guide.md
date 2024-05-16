@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人崛起", "怪物猎人曙光"]
 description: "《怪物猎人崛起：曙光》太刀开荒全流程攻略"
 tags: ["blog", "game", "怪物猎人崛起"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

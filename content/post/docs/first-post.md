@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: "2023年了，国内虽然大部分流量都转向了移动端，但是对于企业网站、行业网站来说，PC端的网站是必不可缺的。所以建立一个自己的外贸企业网站是非常有必要的事情。"
 tags: ["blog"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # weight: 1

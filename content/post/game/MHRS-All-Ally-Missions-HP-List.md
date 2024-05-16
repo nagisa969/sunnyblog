@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人崛起", "怪物猎人曙光"]
 description: "《怪物猎人崛起：曙光》到达一定进度解锁盟友任务，可与NPC角色同行讨伐怪物，完成盟友同行的任务即可解锁NPC在重要调查任务内选择使用。"
 tags: ["blog", "game", "怪物猎人崛起"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

@@ -7,7 +7,7 @@ keywords: ["ChatGPT", "WordPress", "API"]
 description: "使用ChatGPT API 批量生成文章内容并自动上传到WordPress 涉及多个步骤。你需要先获取ChatGPT API的访问凭证（API key），然后使用PHP脚本生成文章内容并通过WordPress REST API上传。"
 tags: ["blog", "SEO", "technical"]
 categories: [
-    "others",
+    "其他",
 ]
 author: "sunny"
 

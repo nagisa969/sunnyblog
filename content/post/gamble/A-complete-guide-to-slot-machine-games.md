@@ -6,7 +6,7 @@ draft: false
 keywords: ["老虎机", "娱乐", "赌场"]
 description: "老虎机，作为赌场中最受欢迎和经典的游戏之一，一直以其简单的玩法和多样的主题吸引着玩家。然而，要在老虎机游戏中获得更好的体验和更多的胜利，需要一些技巧和策略。本文将为您提供一份老虎机游戏的全攻略，帮助您在游戏中取得更多乐趣和可能的胜利。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

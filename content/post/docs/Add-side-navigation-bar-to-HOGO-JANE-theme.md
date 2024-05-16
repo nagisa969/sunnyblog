@@ -6,7 +6,7 @@ draft: false
 keywords: ["HUGO", "侧边导航栏", "sidebar"]
 description: "Hugo的JANE主题是一款基于Hugo框架的主题，用于创建静态网站。之前用JANE主题建好站，总感觉要是有个侧边导航栏就好了，于是就寻思怎么添加一个侧边导航栏。"
 tags: ["blog", "technical"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # weight: 1

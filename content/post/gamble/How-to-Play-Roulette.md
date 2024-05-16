@@ -6,7 +6,7 @@ draft: false
 keywords: ["赌场游戏", "获胜策略", "轮盘赌"]
 description: "作为经验丰富或新手的轮盘赌玩家，学习有效的策略对于您在这款流行的赌场游戏中取得成功至关重要。在本文中，我们介绍了三种获胜技巧，可能有助于增加您在这款流行游戏中的胜算。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

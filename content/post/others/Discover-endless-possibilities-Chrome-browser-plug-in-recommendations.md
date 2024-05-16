@@ -9,7 +9,7 @@ description: "在互联网时代，浏览器是我们访问世界的窗口，而
 "
 tags: ["blog", "technical"]
 categories: [
-    "others",
+    "其他",
 ]
 author: "sunny"
 

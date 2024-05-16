@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "诅咒铠甲", "流程攻略"]
 description: "诅咒铠甲（Cursed Armor）完整流程攻略二，在序幕中，我们遇到了莉莉娜，我们美丽的主角，她决定成为一名伟大的冒险家，就像她的偶像纳斯特拉一样。然后她在检查偶像的雕像时听到了一个声音。这个声音告诉她去纳斯特拉的坟墓，在那里她可以找到使纳斯特拉成为传奇的宝藏。"
 tags: ["blog", "game", "诅咒铠甲"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

@@ -6,7 +6,7 @@ draft: false
 keywords: ["亚洲之子", "攻略流程", "新增内容"]
 description: "亚洲之子V55.5新增内容攻略汇总 新角色剧情攻略"
 tags: ["game", "亚洲之子"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

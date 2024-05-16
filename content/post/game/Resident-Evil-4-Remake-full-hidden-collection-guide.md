@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "生化危机4", "收集指南"]
 description: "《生化危机4重制版》游戏中有着许多隐藏武器与带有强大属性的饰品可以获取，下面带来的《生化危机4重制版》全隐藏武器收集指南，希望能帮助到大家。"
 tags: ["生化危机", "game"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

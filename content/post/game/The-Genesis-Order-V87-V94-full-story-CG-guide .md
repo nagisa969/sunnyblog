@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "创世秩序", "流程攻略"]
 description: "创世秩序攻略（The Genesis Order）V87092-V94011全剧情流程CG攻略"
 tags: ["blog", "game", "创世秩序"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

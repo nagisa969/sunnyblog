@@ -6,7 +6,7 @@ draft: false
 keywords: ["亚洲之子", "攻略流程", "新增内容"]
 description: "soa亚洲之子攻略合集亚洲之子V48.8新增内容攻略汇总"
 tags: ["blog", "game", "亚洲之子"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

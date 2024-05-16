@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "创世秩序", "流程攻略"]
 description: "更新了非常多的内容，且质量没有丝毫的减少，照着自己上次写的，开了全程跳过所有对话和CG，来看看自己写的有没有疏漏，有添加会记下来，但不会再写一遍哦，详情见V3.1的那个攻略，收集的话我自己再收集一遍吧，但是过程不赘述了"
 tags: ["blog", "game", "创世秩序"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

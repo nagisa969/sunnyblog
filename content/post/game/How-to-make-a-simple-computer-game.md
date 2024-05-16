@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "步骤", "基础游戏"]
 description: "制作一款简单的电脑游戏可以是一个令人兴奋和具有创造性的过程。以下是一个简单的步骤指南，帮助您入门，制作您自己的基础游戏："
 tags: ["blog", "game"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

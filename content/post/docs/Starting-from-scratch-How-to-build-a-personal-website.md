@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: "在当今数字时代，拥有个人网站是展示个人品牌、分享经验和展示作品的重要途径。搭建个人网站可能听起来复杂，但随着现代技术的发展，这变得越来越容易。在这篇文章中，我们将从零开始，逐步介绍如何搭建一个个人网站，以展示你的兴趣、技能和作品。"
 tags: ["blog"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # weight: 1

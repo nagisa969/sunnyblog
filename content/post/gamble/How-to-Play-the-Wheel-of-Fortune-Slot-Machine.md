@@ -6,7 +6,7 @@ draft: false
 keywords: ["赌场游戏", "命运之轮", "老虎机"]
 description: "命运之轮老虎机是世界上最受欢迎的赌场游戏之一。 这款 5 卷轴、多奖金功能游戏提供众多奖金功能和累积奖金，甚至可以在移动设备上玩，更加方便。 游戏玩法直观简单，使其成为初学者和任何寻求快速赚钱的有趣方式的人的完美选择！"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

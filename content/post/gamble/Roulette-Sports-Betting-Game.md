@@ -6,7 +6,7 @@ draft: false
 keywords: ["轮盘", "博彩游戏", "体育博彩"]
 description: "滥用奖金进行赌博是博彩业普遍存在的问题。博彩游戏经营者应制定举措并相互合作，打击滥用游戏奖金的行为。提供奖金优惠赌博是许多博彩公司使用的常见策略，提供了吸引玩家的令人愉悦且有效的手段。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

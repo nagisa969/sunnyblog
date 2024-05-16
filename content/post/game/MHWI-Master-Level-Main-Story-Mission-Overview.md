@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人世界", "怪物猎人冰原"]
 description: "《怪物猎人世界：冰原》大师级主线剧情任务流程一览"
 tags: ["game", "怪物猎人世界"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

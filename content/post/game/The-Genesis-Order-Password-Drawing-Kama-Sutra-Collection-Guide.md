@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "创世秩序", "流程攻略"]
 description: "主线完结咯，故此将爱经道具等等杂项收集记录于此，以备不时之需，但是现在的汉化版本都开了全CG了（笑），以供有兴趣或者不是新版卡关的人来探索一番吧"
 tags: ["blog", "game", "创世秩序"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

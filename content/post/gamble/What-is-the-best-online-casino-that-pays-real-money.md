@@ -6,7 +6,7 @@ draft: false
 keywords: ["在线赌场", "真钱支付", "博彩"]
 description: "顶级真钱在线赌场应提供卓越的用户体验，包括流畅的软件、丰厚的奖金和合理的下注要求、RTP率至少90%的高质量游戏以及快速提款。此外，该赌场必须采取严格的安全措施来保证个人信息和金融交易的安全。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人崛起", "怪物猎人曙光"]
 description: "当对应怪的怪异研究任务达到一定等级后。素材就会升级为后面一种怪异化素材。1-6星怪，共3个等级的怪异素材！7星怪，共2个等级的怪异素材！2023年2月初更新 8星。2023年4月低更新 9星"
 tags: ["game", "怪物猎人崛起"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

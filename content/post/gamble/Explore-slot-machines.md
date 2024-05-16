@@ -6,7 +6,7 @@ draft: false
 keywords: ["老虎机", "博彩", "赌博"]
 description: "老虎机是一种流行的赌博游戏，吸引了许多人的注意。在这篇文章中，我们将探讨老虎机的历史、运作原理、不同类型、以及它对社会和个人的影响。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

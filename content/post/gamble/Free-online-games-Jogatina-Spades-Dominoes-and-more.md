@@ -6,7 +6,7 @@ draft: false
 keywords: ["在线游戏", "免费游戏", "纸牌游戏"]
 description: "Burraco Jogatina 是最好的免费在线纸牌游戏之一，提供无尽的纸牌游戏乐趣。建造卡纳斯塔并成为 Burraco Deck 的终极冠军！在多人或单人模式下与真实玩家或智能机器人对战，在游戏时与伙伴和对手聊天，并根据您的需要自定义卡牌、桌子和设置。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: "wordpress目录结构，数据表详细列表"
 tags: ["blog"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # weight: 1

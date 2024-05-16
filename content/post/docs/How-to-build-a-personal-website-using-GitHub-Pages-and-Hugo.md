@@ -6,7 +6,7 @@ draft: false
 keywords: []
 description: "在当今数字化的时代，拥有个人网站成为展示个人品牌、分享知识和展示作品的重要途径之一。GitHub Pages 和 Hugo 是两个流行的工具，可以帮助你快速搭建并轻松管理个人网站。本文将详细介绍如何使用 GitHub Pages 和 Hugo 这两个工具建立一个专业而现代的个人网站。"
 tags: ["blog"]
-categories: ["docs"]
+categories: ["技术文档"]
 author: "sunny"
 
 # weight: 1

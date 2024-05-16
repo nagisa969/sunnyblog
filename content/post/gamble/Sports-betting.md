@@ -6,7 +6,7 @@ draft: false
 keywords: ["投资", "娱乐", "体育博彩"]
 description: "体育博彩是一种以体育比赛为基础的各种博彩方式，它在全球范围内都受到了广泛的关注和参与。体育博彩不仅仅是一种娱乐方式，它也具有投资的性质，吸引了大量的投资者和爱好者。"
 tags: ["blog", "gamble"]
-categories: ["gamble"]
+categories: ["博彩"]
 author: "sunny"
 
 # Uncomment to pin article to front page

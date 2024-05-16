@@ -6,7 +6,7 @@ draft: false
 keywords: ["亚洲之子", "攻略流程", "教学指南"]
 description: "亚洲之子SOA全人物攻略教学指南三"
 tags: ["blog", "game", "亚洲之子"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

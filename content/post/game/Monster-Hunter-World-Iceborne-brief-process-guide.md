@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人世界", "怪物猎人冰原"]
 description: "怪物猎人世界冰原简要流程攻略"
 tags: ["blog", "game", "怪物猎人世界"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

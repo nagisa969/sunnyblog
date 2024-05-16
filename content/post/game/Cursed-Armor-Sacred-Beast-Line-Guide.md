@@ -6,7 +6,7 @@ draft: false
 keywords: ["电脑游戏", "诅咒铠甲", "流程攻略"]
 description: "诅咒铠甲（Cursed Armor）圣兽线（支线）攻略"
 tags: ["blog", "game", "诅咒铠甲"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1

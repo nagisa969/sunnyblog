@@ -6,7 +6,7 @@ draft: false
 keywords: ["怪物猎人", "怪物猎人崛起", "怪物猎人曙光"]
 description: "《怪物猎人 曙光》的关键任务和崛起设定一样，只要完成满足任务数量就能触发紧急任务到达下个阶段推进剧情等，不过这次大师会把一段等级分为2~3部分任务触发多次紧急任务"
 tags: ["blog", "game", "怪物猎人崛起"]
-categories: ["game"]
+categories: ["游戏"]
 author: "sunny"
 
 # weight: 1
