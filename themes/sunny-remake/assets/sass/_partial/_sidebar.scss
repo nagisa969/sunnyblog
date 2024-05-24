@@ -31,6 +31,21 @@ nav.sidebar {
   }
 }
 
+.widgetButton{
+  font-size:1.1em;
+  color:#2ca6cb;
+  padding:0 0 .3125em 0;
+  border-bottom:.1875em solid #ccc;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+  a{
+    color:#222;
+    border: 2px solid #222;
+    padding: 0.5em 1em;
+  }
+}
+
 
 .archiveslist {
 	

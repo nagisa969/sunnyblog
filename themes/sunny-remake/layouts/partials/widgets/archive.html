@@ -1,6 +1,6 @@
 {{ if not (eq (len site.RegularPages) 0) }}
 <p class="asidetitle">
-<a href="{{ $.Site.BaseURL }}post/">{{ .Site.Params.Strings.Archive | default "最近文章" }}</a>
+<a href="{{ $.Site.BaseURL }}post/">{{ .Site.Params.Strings.Archive | default "最新文章" }}</a>
 </p>
 <div class="archiveslist">
     {{- $recent := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
@@ -12,12 +12,17 @@
       <div class="widget__content">
         <ul class="widget__list">
           {{- range first $recent_num $recent }}
-          <time datetime="{{ .Date.Format "2006-01-02" }}" class="archive-post-time">
+          <li class="widget__item">
+            <time datetime="{{ .Date.Format "2006-01-02" }}" class="archive-post-time">
             {{ .Date.Format (.Site.Params.dateFormatToUse | default "2006-01-02") }}
-          </time>
-          <li class="widget__item"><a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            </time><br>
+            <a class="widget__link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </li>
           {{- end }}
         </ul>
+        <p class="widgetButton">
+          <a href="{{ $.Site.BaseURL }}post/">{{ .Site.Params.Strings.Categories | default "文章一览" }}</a>
+        </p>
       </div>
     </div>
     {{- end }}

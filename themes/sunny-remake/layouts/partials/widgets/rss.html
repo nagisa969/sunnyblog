@@ -1,0 +1,12 @@
+<p class="asidetitle">
+  <a href="{{ $.Site.BaseURL }}index.xml">{{ .Site.Params.Strings.RSS | default "订阅" }}</a>
+</p>
+{{/* RSS icon  */}}
+{{ with .Site.GetPage "home" -}}
+  {{- with .OutputFormats.Get "RSS" -}}
+  <a href="{{ .Permalink }}" rel="noopener {{ .Rel }}" type="{{ .MediaType.Type }}"
+    class="iconfont" title="rss" target="_blank">
+    {{ partial "svg/rss.svg" }}
+  </a>
+  {{ end -}}
+{{- end -}}

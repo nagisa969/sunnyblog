@@ -6,9 +6,12 @@
 <div class="categorieslist">
   <ul>
     {{ range $name, $items := .Site.Taxonomies.categories }}
-    <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}" title="{{ $name }}">{{ $name }}</a></li>
+    <li><a href="{{ $.Site.BaseURL }}categories/{{ $name | urlize | lower }}/" title="{{ $name }}">{{ $name }}</a></li>
     {{ end }}
   </ul>
+  <p class="widgetButton">
+    <a href="{{ $.Site.BaseURL }}categories/">{{ .Site.Params.Strings.Categories | default "分类一览" }}</a>
+  </p>
 </div>
 {{ end }}
 {{ end }}
