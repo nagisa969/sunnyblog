@@ -26,9 +26,9 @@ reward: false
 
 - [呆狼小屋](https://www.dailangxiaowu.com/) - 一个游戏网站
 
-- [番茄V2](https://fanqie-v2.buzz/) - 一个VPN网站
+- [番茄V2](https://fanqie00.top/auth/register?code=mTin) - 一个VPN网站
 
-- [ssrdog](https://dog.ssrdog.com/) - 一个VPN网站
+- [ssrdog](https://dog.ssrdog222.com/#/register?code=CWLajAtW) - 一个VPN网站
 
 
 以上是Sunny博客的友情链接，旨在为读者提供更多优质的内容和服务。如果您有兴趣与Sunny博客建立友情链接，请联系网站下方邮箱，期待与您的合作！
